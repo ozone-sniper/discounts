@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>Намалени продукти - Музика и филми</title>
+   <link href="https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap" rel="stylesheet">
+  <style>
+    body {
+        font-family: 'Winky Rough', cursive;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+      position: relative;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: orange;
+      color: white;
+      padding: 5px 8px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .title {
+      margin: 10px 0;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .prices {
+      font-size: 14px;
+    }
+    .old-price {
+      text-decoration: line-through;
+      color: gray;
+    }
+    .new-price {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 Намалени продукти от категория "Музика и филми"</h1>
+  <div class="grid">
+    
+      <a href="https://www.ozone.bg/product/kolektsiya-monster-high-dvd-chanta/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/o/018ed6d6935b33dec8bb9933c7d34bc0/kolektsiya-monster-high-dvd--chanta-20.jpg" alt="Колекция Monster High (DVD) + Чанта">
+          <div class="badge">-84%</div>
+          <div class="title">Колекция Monster High (DVD) + Чанта</div>
+          <div class="prices">
+            <span class="old-price">54,99 лв.</span> → <span class="new-price">8,99 лв.
+-84%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/kolektsiya-monster-high-dvd-chanta/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/o/018ed6d6935b33dec8bb9933c7d34bc0/kolektsiya-monster-high-dvd--chanta-20.jpg" alt="Колекция Monster High (DVD) + Чанта">
+          <div class="badge">-84%</div>
+          <div class="title">Колекция Monster High (DVD) + Чанта</div>
+          <div class="prices">
+            <span class="old-price">54,99 лв.</span> → <span class="new-price">8,99 лв.
+-84%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/maneskin-chosen-cd/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/m/_/939ffdc2eb53937530fdc32a5321a8aa/maneskin---chosen-cd-20.jpg" alt="Maneskin - Chosen (CD)">
+          <div class="badge">-20%</div>
+          <div class="title">Maneskin - Chosen (CD)</div>
+          <div class="prices">
+            <span class="old-price">20,59 лв.</span> → <span class="new-price">16,49 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/barbra-streisand-walls-cd/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/b/a/2f6c916566e668d16805b173eb10096b/barbra-streisand---walls-cd-20.jpg" alt="Barbra Streisand - Walls (CD)">
+          <div class="badge">-51%</div>
+          <div class="title">Barbra Streisand - Walls (CD)</div>
+          <div class="prices">
+            <span class="old-price">20,59 лв.</span> → <span class="new-price">9,99 лв.
+-51%</span>
+          </div>
+        </div>
+      </a>
+  </div>
+</body>
+</html>

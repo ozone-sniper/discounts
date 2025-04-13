@@ -1,46 +1,136 @@
-
 <!DOCTYPE html>
 <html lang="bg">
+
 <head>
   <meta charset="UTF-8">
-  <title>Намалени продукти</title>
-   <link href="https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap" rel="stylesheet">
+  <title>Ozone.bg discount sniper</title>
+  <link href="https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap" rel="stylesheet">
   <style>
     body {
-        font-family: 'Winky Rough', cursive;
-      background: #f5f5f5;
-      padding: 20px;
+      font-family: 'Winky Rough', cursive;
+      background: linear-gradient(to right, #fdfbfb, #ebedee);
+      margin: 0;
+      padding: 0;
+      color: #333;
     }
-    h1 {
+
+    header {
+      background-color: #292b2c;
+      color: #fff;
+      padding: 20px 0;
       text-align: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    .updated-time {
+      text-align: center;
+      font-size: 1rem;
+      color: #777;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+
+    .selector-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
     select {
-      display: block;
-      margin: 0 auto 20px;
-      padding: 10px;
-      font-size: 16px;
-    }
-    iframe {
-      display: block;
-      width: 100%;
-      height: 90vh;
+      padding: 14px 20px;
+      font-size: 1.1rem;
+      border-radius: 8px;
       border: none;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+      transition: all 0.3s ease;
+      min-width: 280px;
+      font-family: inherit;
     }
-    .centered {
-        display: flex;
-        justify-content:center;
+
+    select:hover {
+      cursor: pointer;
+      background-color: #f0f0f0;
+    }
+
+    iframe {
+      width: 100%;
+      height: 85vh;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background-color: #292b2c;
+      color: #ccc;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #ccc;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      select {
+        font-size: 1rem;
+        padding: 12px 16px;
+      }
     }
   </style>
 </head>
+
 <body>
-  <h1>Намалени продукти по категории</h1>
-  <div class="centered">
-    <h3>Последно обновяване: 4/13/2025, 9:05:15 PM</h3>
+  <header>
+    <h1>Ozone.bg discount sniper</h1>
+  </header>
+
+  <div class="updated-time">
+    Последно обновяване: 4/13/2025, 9:05:15 PM
   </div>
-  <select id="categorySelector">
-    <option value="gaming.html">Гейминг</option><option value="pazeli-2d-3d.html">Настолни игри и пъзели</option><option value="filmi.html">Музика и филми</option><option value="drehi-merchandise.html">Мърчандайз</option><option value="knijarnica.html">Книги и учебници</option><option value="posobiya-i-podaratsi.html">Пособия и подаръци</option><option value="laptopi-monitori-i-kompyutri.html">Лаптопи, РС и монитори</option><option value="audio-i-video.html">Аудио и Hi-Fi</option><option value="mobilni-ustroistva.html">Смартфони и смарт устройства</option><option value="tv-foto-i-video.html">ТВ, Фото и видео</option><option value="igrachki-i-pazeli.html">Играчки</option><option value="mama-i-bebe.html">Майка и бебе</option><option value="kozmetika.html">Козметика и парфюми</option><option value="apteka-i-hranitelni-dobavki.html">Аптека и хранителни добавки</option><option value="layfstayl.html">Лайфстайл и фитнес</option><option value="sport-i-autdor.html">Спорт и къмпинг</option><option value="dom-i-gradina.html">За дома и офиса</option><option value="malki-elektrouredi.html">Малки електроуреди</option>
-  </select>
+
+  <div class="selector-wrapper">
+    <select id="categorySelector">
+      <option value="gaming.html">Гейминг</option>
+      <option value="pazeli-2d-3d.html">Настолни игри и пъзели</option>
+      <option value="filmi.html">Музика и филми</option>
+      <option value="drehi-merchandise.html">Мърчандайз</option>
+      <option value="knijarnica.html">Книги и учебници</option>
+      <option value="posobiya-i-podaratsi.html">Пособия и подаръци</option>
+      <option value="laptopi-monitori-i-kompyutri.html">Лаптопи, РС и монитори</option>
+      <option value="audio-i-video.html">Аудио и Hi-Fi</option>
+      <option value="mobilni-ustroistva.html">Смартфони и смарт устройства</option>
+      <option value="tv-foto-i-video.html">ТВ, Фото и видео</option>
+      <option value="igrachki-i-pazeli.html">Играчки</option>
+      <option value="mama-i-bebe.html">Майка и бебе</option>
+      <option value="kozmetika.html">Козметика и парфюми</option>
+      <option value="apteka-i-hranitelni-dobavki.html">Аптека и хранителни добавки</option>
+      <option value="layfstayl.html">Лайфстайл и фитнес</option>
+      <option value="sport-i-autdor.html">Спорт и къмпинг</option>
+      <option value="dom-i-gradina.html">За дома и офиса</option>
+      <option value="malki-elektrouredi.html">Малки електроуреди</option>
+    </select>
+  </div>
+
   <iframe id="categoryFrame" src="gaming.html"></iframe>
+
+  <footer>
+    © 2025 Ozone.bg discount sniper | Създадено от <a href="https://your-website.com" target="_blank">smisul.da</a>
+  </footer>
 
   <script>
     const selector = document.getElementById('categorySelector');
@@ -50,4 +140,5 @@
     });
   </script>
 </body>
+
 </html>

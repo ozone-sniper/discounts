@@ -1,144 +1,140 @@
+
 <!DOCTYPE html>
 <html lang="bg">
-
 <head>
   <meta charset="UTF-8">
-  <title>Ozone.bg discount sniper</title>
+  <title>Намалени продукти</title>
   <link href="https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg-color: #f5f5f5;
+      --text-color: #000;
+      --header-bg: #e0e0e0;
+      --sidebar-bg: #fff;
+    }
+
+    body.dark {
+      --bg-color: #121212;
+      --text-color: #f5f5f5;
+      --header-bg: #1e1e1e;
+      --sidebar-bg: #2c2c2c;
+    }
+
     body {
-      font-family: 'Winky Rough', cursive;
-      background: linear-gradient(to right, #fdfbfb, #ebedee);
       margin: 0;
-      padding: 0;
-      color: #333;
+      display: flex;
+      font-family: 'Winky Rough', cursive;
+      background-color: var(--bg-color);
+      color: var(--text-color);
     }
 
     header {
-      background-color: #292b2c;
-      color: #fff;
-      padding: 20px 0;
+      background: var(--header-bg);
+      padding: 20px;
       text-align: center;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     }
 
     header h1 {
-      font-size: 2.8rem;
       margin: 0;
-      letter-spacing: 1px;
     }
 
-    .updated-time {
-      text-align: center;
-      font-size: 1rem;
-      color: #777;
-      margin-top: 10px;
-      margin-bottom: 30px;
+    #sidebar {
+      background-color: var(--sidebar-bg);
+      width: 240px;
+      padding: 20px;
+      box-sizing: border-box;
+      height: 100vh;
+      overflow-y: auto;
+      border-right: 1px solid #ccc;
     }
 
-    .selector-wrapper {
+    #sidebar h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    #sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #sidebar li {
+      margin: 10px 0;
+    }
+
+    #sidebar a {
+      color: var(--text-color);
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    #main-content {
+      flex: 1;
       display: flex;
-      justify-content: center;
-      margin-bottom: 30px;
-    }
-
-    select {
-      padding: 14px 20px;
-      font-size: 1.1rem;
-      border-radius: 8px;
-      border: none;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      background-color: #ffffff;
-      transition: all 0.3s ease;
-      min-width: 280px;
-      font-family: inherit;
-    }
-
-    select:hover {
-      cursor: pointer;
-      background-color: #f0f0f0;
+      flex-direction: column;
     }
 
     iframe {
-      width: 100%;
-      height: 85vh;
+      flex: 1;
       border: none;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      margin-bottom: 30px;
     }
 
-    footer {
-      background-color: #292b2c;
-      color: #ccc;
+    .centered {
       text-align: center;
-      padding: 15px 10px;
-      font-size: 0.9rem;
+      margin: 10px 0;
     }
 
-    footer a {
-      color: #ccc;
-      text-decoration: underline;
+    #modeToggle {
+      margin-top: 10px;
+      cursor: pointer;
+      font-size: 14px;
+      background: none;
+      border: 1px solid var(--text-color);
+      padding: 5px 10px;
+      color: var(--text-color);
     }
 
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
 
-      select {
-        font-size: 1rem;
-        padding: 12px 16px;
-      }
+    .logo img {
+      max-width: 100%;
+      max-height: 80px;
     }
   </style>
 </head>
-
 <body>
-  <header>
-    <h1>Ozone.bg discount sniper</h1>
-  </header>
-
-  <div class="updated-time">
-    Последно обновяване: 4/13/2025, 9:05:15 PM
+  <div id="sidebar">
+    <div class="logo">
+      <!-- Add your logo image here -->
+      <img src="logo.png" alt="Logo">
+    </div>
+    <h2>Категории</h2>
+    <ul>
+      <li><a href="#" data-src="knijarnica.html">Книги и учебници</a></li><li><a href="#" data-src="pazeli-2d-3d.html">Настолни игри и пъзели</a></li><li><a href="#" data-src="posobiya-i-podaratsi.html">Пособия и подаръци</a></li>
+    </ul>
   </div>
 
-  <div class="selector-wrapper">
-    <select id="categorySelector">
-      <option value="gaming.html">Гейминг</option>
-      <option value="pazeli-2d-3d.html">Настолни игри и пъзели</option>
-      <option value="filmi.html">Музика и филми</option>
-      <option value="drehi-merchandise.html">Мърчандайз</option>
-      <option value="knijarnica.html">Книги и учебници</option>
-      <option value="posobiya-i-podaratsi.html">Пособия и подаръци</option>
-      <option value="laptopi-monitori-i-kompyutri.html">Лаптопи, РС и монитори</option>
-      <option value="audio-i-video.html">Аудио и Hi-Fi</option>
-      <option value="mobilni-ustroistva.html">Смартфони и смарт устройства</option>
-      <option value="tv-foto-i-video.html">ТВ, Фото и видео</option>
-      <option value="igrachki-i-pazeli.html">Играчки</option>
-      <option value="mama-i-bebe.html">Майка и бебе</option>
-      <option value="kozmetika.html">Козметика и парфюми</option>
-      <option value="apteka-i-hranitelni-dobavki.html">Аптека и хранителни добавки</option>
-      <option value="layfstayl.html">Лайфстайл и фитнес</option>
-      <option value="sport-i-autdor.html">Спорт и къмпинг</option>
-      <option value="dom-i-gradina.html">За дома и офиса</option>
-      <option value="malki-elektrouredi.html">Малки електроуреди</option>
-    </select>
+  <div id="main-content">
+    <iframe id="categoryFrame" src="knijarnica.html"></iframe>
   </div>
-
-  <iframe id="categoryFrame" src="gaming.html"></iframe>
-
-  <footer>
-    © 2025 Ozone.bg discount sniper | Създадено от <a href="https://your-website.com" target="_blank">smisul.da</a>
-  </footer>
 
   <script>
-    const selector = document.getElementById('categorySelector');
-    const frame = document.getElementById('categoryFrame');
-    selector.addEventListener('change', () => {
-      frame.src = selector.value;
+    document.querySelectorAll('#sidebar a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const src = link.getAttribute('data-src');
+        document.getElementById('categoryFrame').src = src;
+      });
+    });
+
+    const toggleButton = document.getElementById('modeToggle');
+    toggleButton.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
     });
   </script>
 </body>
-
 </html>

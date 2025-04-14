@@ -4,10 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Намалени продукти - За дома и офиса</title>
-   <link href="https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
   <style>
     body {
-        font-family: 'Winky Rough', cursive;
+      font-family: "Shantell Sans", cursive;
       background: #f5f5f5;
       padding: 20px;
     }
@@ -26,6 +29,7 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       transition: transform 0.2s;
       position: relative;
+        text-align: center;
     }
     .card:hover {
       transform: scale(1.02);
@@ -61,23 +65,26 @@
       color: green;
       font-weight: bold;
     }
+    .centered {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    /* Responsive Layouts */
+    @media (max-width: 480px) {
+        .grid {
+            grid-template-columns: 1fr 1fr; /* One column for phones */
+        }
+    }
   </style>
 </head>
 <body>
   <h1>📚 Намалени продукти от категория "За дома и офиса"</h1>
+      <div class="centered">
+        <h3>Последно обновяване: 4/14/2025, 12:55:05 PM</h3>
+      </div>
   <div class="grid">
     
-      <a href="https://www.ozone.bg/product/solna-lampa-rabalux-rock-4127/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
-        <div class="card">
-          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/s/o/1a419e0c7a0348d36f86369e2ed9be37/solna-lampa-rabalux---rock-4127--15-w--22-cm-20.jpg" alt="Солна лампа Rabalux - Rock 4127, 15 W, 22 cm">
-          <div class="badge">-39%</div>
-          <div class="title">Солна лампа Rabalux - Rock 4127, 15 W, 22 cm</div>
-          <div class="prices">
-            <span class="old-price">32,99 лв.</span> → <span class="new-price">19,99 лв.
--39%</span>
-          </div>
-        </div>
-      </a>
       <a href="https://www.ozone.bg/product/solna-lampa-rabalux-rock-mini-4129-15-w-6-5-h-9-cm/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
         <div class="card">
           <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/s/o/18fb0781f7b508538354e525c3828c37/solna-lampa---sveshtnik-rabalux---rock-mini-4129--65-h-9-cm-20.jpg" alt="Солна лампа - свещник Rabalux - Rock mini 4129, 6.5 х 9 cm">
@@ -463,17 +470,6 @@
           </div>
         </div>
       </a>
-      <a href="https://www.ozone.bg/product/preparat-za-pod-sano-floor-fresh-home-blue-blossom-2l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
-        <div class="card">
-          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/r/89796e203b7279ec5c3c5126ee701d57/preparat-za-pod-sano---floor-fresh-home-blue-blossom--2-l-20.jpg" alt="Препарат за под Sano - Floor Fresh Home Blue Blossom, 2 L">
-          <div class="badge">-9%</div>
-          <div class="title">Препарат за под Sano - Floor Fresh Home Blue Blossom, 2 L</div>
-          <div class="prices">
-            <span class="old-price">12,99 лв.</span> → <span class="new-price">11,79 лв.
--9%</span>
-          </div>
-        </div>
-      </a>
       <a href="https://www.ozone.bg/product/aromatizator-za-vazduh-sano-fresh-home-blue-blossom-350ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
         <div class="card">
           <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/a/r/bc27318db32fc43b3a777b3834ace696/aromatizator-za-vazduh-sano---fresh-home-blue-blossom--350ml-20.jpg" alt="Ароматизатор за въздух Sano - Fresh Home Blue Blossom, 350мл">
@@ -482,6 +478,17 @@
           <div class="prices">
             <span class="old-price">7,99 лв.</span> → <span class="new-price">6,59 лв.
 -18%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/preparat-za-pod-sano-floor-fresh-home-blue-blossom-2l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/r/89796e203b7279ec5c3c5126ee701d57/preparat-za-pod-sano---floor-fresh-home-blue-blossom--2-l-20.jpg" alt="Препарат за под Sano - Floor Fresh Home Blue Blossom, 2 L">
+          <div class="badge">-9%</div>
+          <div class="title">Препарат за под Sano - Floor Fresh Home Blue Blossom, 2 L</div>
+          <div class="prices">
+            <span class="old-price">12,99 лв.</span> → <span class="new-price">11,79 лв.
+-9%</span>
           </div>
         </div>
       </a>
@@ -548,6 +555,468 @@
           <div class="prices">
             <span class="old-price">12,99 лв.</span> → <span class="new-price">11,79 лв.
 -9%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/kontsentriran-gel-za-prane-sano-maxima-soft-silk-60-praneta-3-l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/o/176a0750effbeb0bc6825aff4f8ac7b1/kontsentriran-gel-za-prane-sano---maxima-soft-silk--60-praneta--3-l-20.jpg" alt="Концентриран гел за пране Sano - Maxima Soft Silk, 60 пранета, 3 L">
+          <div class="badge">-10%</div>
+          <div class="title">Концентриран гел за пране Sano - Maxima Soft Silk, 60 пранета, 3 L</div>
+          <div class="prices">
+            <span class="old-price">28,99 лв.</span> → <span class="new-price">25,99 лв.
+-10%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/metalno-panerche-na-hlyab-hit-23-x-21-5-h-12-sm-cherno/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/v/f4377f644a152008ab99ec0cb19a5e68/kvadratno-panerche-za-hlyab-hit---23-x-215-cm--cherno-20.jpg" alt="Квадратно панерче за хляб HIT - 23 x 21.5 cm, черно">
+          <div class="badge">-38%</div>
+          <div class="title">Квадратно панерче за хляб HIT - 23 x 21.5 cm, черно</div>
+          <div class="prices">
+            <span class="old-price">27,50 лв.</span> → <span class="new-price">16,99 лв.
+-38%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/aromatizator-za-toaletnoto-kazanche-sano-aqua-blue-100-gr/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/a/r/de94475220f5924cde3abf7e83f5446c/aromatizator-za-toaletnoto-kazanche-sano---aqua-blue--100-g-20.jpg" alt="Ароматизатор за тоалетното казанче Sano - Aqua Blue, 100 g">
+          <div class="badge">-25%</div>
+          <div class="title">Ароматизатор за тоалетното казанче Sano - Aqua Blue, 100 g</div>
+          <div class="prices">
+            <span class="old-price">9,99 лв.</span> → <span class="new-price">7,49 лв.
+-25%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/preparat-za-pod-protiv-nasekomi-sano-floor-plus-1-l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/r/ac95d0ad8c33ee297b31c33ec2822019/preparat-za-pod-protiv-nasekomi-sano---floor-plus--1-l-20.jpg" alt="Препарат за под против насекоми Sano - Floor Plus, 1 L">
+          <div class="badge">-8%</div>
+          <div class="title">Препарат за под против насекоми Sano - Floor Plus, 1 L</div>
+          <div class="prices">
+            <span class="old-price">8,99 лв.</span> → <span class="new-price">8,29 лв.
+-8%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/torbi-za-otpadatsi-fino-color-35-l-30-broya-zeleni/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/t/o/5d19d365ecb1db41d3ed6ba95e0a954b/torbi-za-otpadatsi-fino---color--35-l--30-broya--zeleni-20.jpg" alt="Торби за отпадъци Fino - Color, 35 L, 30 броя, зелени">
+          <div class="badge">-20%</div>
+          <div class="title">Торби за отпадъци Fino - Color, 35 L, 30 броя, зелени</div>
+          <div class="prices">
+            <span class="old-price">2,99 лв.</span> → <span class="new-price">2,39 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/pechat-za-sladki-cine-replicas-movies-harry-potter-kawaii/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/e/924d95c17d3ce0078619734897985bab/pechat-za-sladki-cinereplicas-movies--harry-potter---kawaii-20.jpg" alt="Печат за сладки Cinereplicas Movies: Harry Potter - Kawaii">
+          <div class="badge">-15%</div>
+          <div class="title">Печат за сладки Cinereplicas Movies: Harry Potter - Kawaii</div>
+          <div class="prices">
+            <span class="old-price">34,99 лв.</span> → <span class="new-price">29,69 лв.
+-15%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/vazglavnitsa-dream-on-air-deluxe-52h41h13-sm/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/v/a/f07303946a4bb789c88ada7150b89bb7/vazglavnitsa-dream-on-air---deluxe--52-h-41-h-13-cm-20.jpg" alt="Възглавница Dream On Air - Deluxe, 52 х 41 х 13 cm">
+          <div class="badge">-33%</div>
+          <div class="title">Възглавница Dream On Air - Deluxe, 52 х 41 х 13 cm</div>
+          <div class="prices">
+            <span class="old-price">74,99 лв.</span> → <span class="new-price">49,99 лв.
+-33%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/kuhnenska-karpa-aglika-be-my-valentine-o50-cm/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/u/1f0e76b64723cd6321415ccf4b57f1ff/kuhnenska-karpa-aglika---be-my-valentine--o50-cm-20.jpg" alt="Кухненска кърпа Aglika - Be My Valentine, Ø50 cm">
+          <div class="badge">-58%</div>
+          <div class="title">Кухненска кърпа Aglika - Be My Valentine, Ø50 cm</div>
+          <div class="prices">
+            <span class="old-price">7,99 лв.</span> → <span class="new-price">3,39 лв.
+-58%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/prah-za-prane-sano-maxima-javel-effect-35-praneta-1-25-kg/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/r/caad5dbf154c924e01d3561f93d77eae/prah-za-prane-sano---maxima-javel-effect--35-praneta--125-kg-20.jpg" alt="Прах за пране Sano - Maxima Javel Effect, 35 пранета, 1.25 kg">
+          <div class="badge">-14%</div>
+          <div class="title">Прах за пране Sano - Maxima Javel Effect, 35 пранета, 1.25 kg</div>
+          <div class="prices">
+            <span class="old-price">10,99 лв.</span> → <span class="new-price">9,49 лв.
+-14%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/kozmetichno-led-ogledalo-beurer-bs-49-5x-zoom-11-cm-byalo/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/o/047df573d3ea30a949f9fc754569fe63/kozmetichno-led-ogledalo-beurer---bs-49--5x-zoom--11-cm--byalo-20.jpg" alt="Козметично LED огледало Beurer - BS 49, 5x Zoom, 11 cm, бяло">
+          <div class="badge">-25%</div>
+          <div class="title">Козметично LED огледало Beurer - BS 49, 5x Zoom, 11 cm, бяло</div>
+          <div class="prices">
+            <span class="old-price">66,90 лв.</span> → <span class="new-price">49,99 лв.
+-25%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/dvustenna-chasha-za-uiski-faubourg-edinbourg-80-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/d/v/4c0c009ea360add8a659bb476d4421be/dvustenna-chasha-za-uiski-faubourg---edinbourg--80-ml-20.jpg" alt="Двустенна чаша за уиски Faubourg - Edinbourg, 80 ml">
+          <div class="badge">-27%</div>
+          <div class="title">Двустенна чаша за уиски Faubourg - Edinbourg, 80 ml</div>
+          <div class="prices">
+            <span class="old-price">14,99 лв.</span> → <span class="new-price">10,99 лв.
+-27%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/krem-za-pochistvane-na-kozha-sano-leather-care-500-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/r/6d4003279d990c5824993043d81cbdb4/krem-za-pochistvane-na-kozha-sano---leather-care--500-ml-20.jpg" alt="Крем за почистване на кожа Sano - Leather Care, 500 ml">
+          <div class="badge">-9%</div>
+          <div class="title">Крем за почистване на кожа Sano - Leather Care, 500 ml</div>
+          <div class="prices">
+            <span class="old-price">10,99 лв.</span> → <span class="new-price">9,99 лв.
+-9%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/sprey-s-limonena-kiselina-heitmann-pure-500-ml-s-pompa/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/s/p/536ab5c6cb3efc9be7a28a877a5ecfa1/sprey-s-limonena-kiselina-heitmann---pure--500-ml--s-pompa-20.jpg" alt="Спрей с лимонена киселина Heitmann - Pure, 500 ml, с помпа">
+          <div class="badge">-20%</div>
+          <div class="title">Спрей с лимонена киселина Heitmann - Pure, 500 ml, с помпа</div>
+          <div class="prices">
+            <span class="old-price">7,99 лв.</span> → <span class="new-price">6,39 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/preparat-za-pod-sano-floor-fresh-exotic-hotel-1-l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/r/e0b2503a885322f09bc1a1ab73447557/preparat-za-pod-sano---floor-fresh-exotic-hotel--1-l-20.jpg" alt="Препарат за под Sano - Floor Fresh Exotic Hotel, 1 l">
+          <div class="badge">-9%</div>
+          <div class="title">Препарат за под Sano - Floor Fresh Exotic Hotel, 1 l</div>
+          <div class="prices">
+            <span class="old-price">7,99 лв.</span> → <span class="new-price">7,29 лв.
+-9%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/burkanche-za-med-s-lazhitsa-nerthus/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/b/u/2fb50560084a6e0bfc22dd96a309c53e/burkanche-za-med-nerthus---s-lazhitsa-20.jpg" alt="Бурканче за мед Nerthus - С лъжица">
+          <div class="badge">-26%</div>
+          <div class="title">Бурканче за мед Nerthus - С лъжица</div>
+          <div class="prices">
+            <span class="old-price">33,99 лв.</span> → <span class="new-price">24,99 лв.
+-26%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/preparat-za-pod-sano-floor-fresh-boutique-hotel-1-l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/r/4fd0ee95c6e5e6c06229bdeea7e3322c/preparat-za-pod-sano---floor-fresh-boutique-hotel--1-l-20.jpg" alt="Препарат за под Sano - Floor Fresh Boutique Hotel, 1 l">
+          <div class="badge">-9%</div>
+          <div class="title">Препарат за под Sano - Floor Fresh Boutique Hotel, 1 l</div>
+          <div class="prices">
+            <span class="old-price">7,99 лв.</span> → <span class="new-price">7,29 лв.
+-9%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/raztvor-za-otpushvane-na-kanali-sano-drain-1l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/r/a/8e198da34e695d5f720d37a4b4d6633d/raztvor-za-otpushvane-na-kanali-sano---drain--1-l-20.jpg" alt="Разтвор за отпушване на канали Sano - Drain, 1 L">
+          <div class="badge">-12%</div>
+          <div class="title">Разтвор за отпушване на канали Sano - Drain, 1 L</div>
+          <div class="prices">
+            <span class="old-price">12,99 лв.</span> → <span class="new-price">11,49 лв.
+-12%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/kontsentriran-gel-za-prane-sano-maxima-spring-flowers-60-praneta-3-l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/o/e885c01910f7d97d120df2d56874f2f7/kontsentriran-gel-za-prane-sano---maxima-spring-flowers--60-praneta--3-l-20.jpg" alt="Концентриран гел за пране Sano - Maxima Spring Flowers, 60 пранета, 3 L">
+          <div class="badge">-10%</div>
+          <div class="title">Концентриран гел за пране Sano - Maxima Spring Flowers, 60 пранета, 3 L</div>
+          <div class="prices">
+            <span class="old-price">28,99 лв.</span> → <span class="new-price">25,99 лв.
+-10%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/preparat-za-parket-i-laminat-sano-poliwix-2l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/r/120c5d9f8b7a5b12f682bcca1abae1ba/preparat-za-parket-i-laminat-sano---poliwix--2-l-20.jpg" alt="Препарат за паркет и ламинат Sano - Poliwix, 2 L">
+          <div class="badge">-9%</div>
+          <div class="title">Препарат за паркет и ламинат Sano - Poliwix, 2 L</div>
+          <div class="prices">
+            <span class="old-price">11,99 лв.</span> → <span class="new-price">10,89 лв.
+-9%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/domakinski-rakavitsi-fino-heavy-duty-razmer-m-1-chift/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/d/o/7c7418a3068fe818be1e7c1cc1ea2fca/domakinski-rakavitsi-fino---heavy-duty--razmer-m--1-chift-20.jpg" alt="Домакински ръкавици Fino - Heavy Duty, размер М, 1 чифт">
+          <div class="badge">-21%</div>
+          <div class="title">Домакински ръкавици Fino - Heavy Duty, размер М, 1 чифт</div>
+          <div class="prices">
+            <span class="old-price">4,90 лв.</span> → <span class="new-price">3,89 лв.
+-21%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/ured-za-ryazane-na-kartofi-hit-s-pristavki/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/u/r/b305eacd666f3f511626ee4d29880bc7/ured-za-ryazane-na-kartofi-hit---2-pristavki-20.jpg" alt="Уред за рязане на картофи HIT - 2 приставки">
+          <div class="badge">-39%</div>
+          <div class="title">Уред за рязане на картофи HIT - 2 приставки</div>
+          <div class="prices">
+            <span class="old-price">52,50 лв.</span> → <span class="new-price">31,99 лв.
+-39%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/mikrofibarni-karpi-sano-sushi-professional-4-broya/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/m/i/28b4dca1c124a67096fd28b48c7c1f61/mikrofibarni-karpi-sano---sushi-professional--4-broya-20.jpg" alt="Микрофибърни кърпи Sano - Sushi Professional, 4 броя">
+          <div class="badge">-18%</div>
+          <div class="title">Микрофибърни кърпи Sano - Sushi Professional, 4 броя</div>
+          <div class="prices">
+            <span class="old-price">10,99 лв.</span> → <span class="new-price">8,99 лв.
+-18%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/tendzhera-sas-staklen-kapak-berlinger-haus-black-rose-collection-o20-2-5l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/t/e/b2b0b332002c169a194b6ba043f033ad/tendzhera-berlinger-haus---black-rose-collection--20-cm--25-l-20.jpg" alt="Тенджера Berlinger Haus - Black Rose Collection, 20 cm, 2.5 l">
+          <div class="badge">-34%</div>
+          <div class="title">Тенджера Berlinger Haus - Black Rose Collection, 20 cm, 2.5 l</div>
+          <div class="prices">
+            <span class="old-price">69,99 лв.</span> → <span class="new-price">45,99 лв.
+-34%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/kontsentriran-gel-za-prane-sano-maxima-mix-and-wash-20-praneta-1-l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/o/411eabd4c33f6d899bad0ca4192aaeae/kontsentriran-gel-za-prane-sano---maxima-mix-and-wash--20-praneta--1-l-20.jpg" alt="Концентриран гел за пране Sano - Maxima Mix & Wash, 20 пранета, 1 L">
+          <div class="badge">-9%</div>
+          <div class="title">Концентриран гел за пране Sano - Maxima Mix & Wash, 20 пранета, 1 L</div>
+          <div class="prices">
+            <span class="old-price">10,99 лв.</span> → <span class="new-price">9,99 лв.
+-9%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/preparat-za-parket-i-laminat-sano-poliwix-1-l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/r/ead436623eac92cae7ed16e592dc9c5c/preparat-za-parket-i-laminat-sano---poliwix--1-l-20.jpg" alt="Препарат за паркет и ламинат Sano - Poliwix, 1 L">
+          <div class="badge">-9%</div>
+          <div class="title">Препарат за паркет и ламинат Sano - Poliwix, 1 L</div>
+          <div class="prices">
+            <span class="old-price">7,99 лв.</span> → <span class="new-price">7,29 лв.
+-9%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/ofis-stol-7579-cheren/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/e/r/fde2f778d02dfd788323cfc5ba8dcf07/ergonomichen-stol-carmen---7579--cheren-20.jpg" alt="Ергономичен стол Carmen - 7579, черен">
+          <div class="badge">-12%</div>
+          <div class="title">Ергономичен стол Carmen - 7579, черен</div>
+          <div class="prices">
+            <span class="old-price">409,99 лв.</span> → <span class="new-price">359,99 лв.
+-12%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/nastolna-lampa-rabalux-bruno-2090-e27-1x40w-metal-i-darvo/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/n/a/690f7ded95aaf36161d9be0dee45e3b6/nastolna-lampa-rabalux---bruno-2090--e27--40w-20.jpg" alt="Настолна лампа Rabalux - Bruno 2090, E27, 40W">
+          <div class="badge">-57%</div>
+          <div class="title">Настолна лампа Rabalux - Bruno 2090, E27, 40W</div>
+          <div class="prices">
+            <span class="old-price">36,99 лв.</span> → <span class="new-price">15,99 лв.
+-57%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/tabletki-za-sadomiyalna-sano-spark-total-action-30br/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/t/a/9d5ff669f5563edb8210f6c96da3a0de/tabletki-za-sadomiyalna-sano---spark-total-action--30-broya-20.jpg" alt="Таблетки за съдомиялна Sano - Spark Total Action, 30 броя">
+          <div class="badge">-17%</div>
+          <div class="title">Таблетки за съдомиялна Sano - Spark Total Action, 30 броя</div>
+          <div class="prices">
+            <span class="old-price">17,99 лв.</span> → <span class="new-price">14,99 лв.
+-17%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/preparat-za-pod-sano-floor-fresh-home-blue-blossom-1-l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/r/307261b4b90670cfac47815f8361c6c3/preparat-za-pod-sano---floor-fresh-home-blue-blossom--1-l-20.jpg" alt="Препарат за под Sano - Floor Fresh Home Blue Blossom, 1 L">
+          <div class="badge">-9%</div>
+          <div class="title">Препарат за под Sano - Floor Fresh Home Blue Blossom, 1 L</div>
+          <div class="prices">
+            <span class="old-price">7,99 лв.</span> → <span class="new-price">7,29 лв.
+-9%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/avtomatichen-aerator-dozator-za-vino-prestigio-pwa104asb-srebrist/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/a/v/4ab1b331e65f7ae7f74d8174764f5c70/avtomatichen-aerator-dozator-za-vino-prestigio---pwa104asb--srebrist-20.jpg" alt="Автоматичен аератор-дозатор за вино Prestigio - PWA104ASB, сребрист">
+          <div class="badge">-36%</div>
+          <div class="title">Автоматичен аератор-дозатор за вино Prestigio - PWA104ASB, сребрист</div>
+          <div class="prices">
+            <span class="old-price">54,99 лв.</span> → <span class="new-price">34,99 лв.
+-36%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/chetka-za-pochistvane-i-podsushavane-na-garafi-vin-bouquet/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/c/h/4eab863a822e7c23916802aa1e42f9d5/chetka-za-pochistvane-i-podsushavane-na-garafi-vin-bouquet-20.jpg" alt="Четка за почистване и подсушаване на гарафи Vin Bouquet">
+          <div class="badge">-28%</div>
+          <div class="title">Четка за почистване и подсушаване на гарафи Vin Bouquet</div>
+          <div class="prices">
+            <span class="old-price">17,99 лв.</span> → <span class="new-price">12,99 лв.
+-28%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/hartiya-za-pechene-fino-8-m-38-cm/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/h/a/c96e8427e4678569fb9382311f4f0d9e/hartiya-za-pechene-fino---8-m--38-cm-20.jpg" alt="Хартия за печене Fino - 8 m, 38 cm">
+          <div class="badge">-22%</div>
+          <div class="title">Хартия за печене Fino - 8 m, 38 cm</div>
+          <div class="prices">
+            <span class="old-price">4,50 лв.</span> → <span class="new-price">3,49 лв.
+-22%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/kontsentriran-gel-za-prane-sano-maxima-musk-60-praneta-3-l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/o/73c98caf532bbd054ded58a56922766e/kontsentriran-gel-za-prane-sano---maxima-musk--3-l-20.jpg" alt="Концентриран гел за пране Sano - Maxima Musk, 3 l">
+          <div class="badge">-10%</div>
+          <div class="title">Концентриран гел за пране Sano - Maxima Musk, 3 l</div>
+          <div class="prices">
+            <span class="old-price">28,99 лв.</span> → <span class="new-price">25,99 лв.
+-10%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/vazglavnitsa-za-stol-stof-sawan-38-x-38-cm-duck/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/v/a/7efcd95dbc38fa72dad15da3c0084374/vazglavnitsa-za-stol-stof---sawan--38-x-38-cm--duck-20.jpg" alt="Възглавница за стол STOF - Sawan, 38 x 38 cm, Duck">
+          <div class="badge">-35%</div>
+          <div class="title">Възглавница за стол STOF - Sawan, 38 x 38 cm, Duck</div>
+          <div class="prices">
+            <span class="old-price">16,99 лв.</span> → <span class="new-price">10,99 лв.
+-35%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/kragla-podlozhka-za-hranene-ads-38-cm-548906/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/r/c448d4f7f7074fceb28671228c1d2464/kragla-podlozhka-za-hranene-ads---38-cm--byala-20.jpg" alt="Кръгла подложка за хранене ADS - 38 cm, бяла">
+          <div class="badge">-54%</div>
+          <div class="title">Кръгла подложка за хранене ADS - 38 cm, бяла</div>
+          <div class="prices">
+            <span class="old-price">4,99 лв.</span> → <span class="new-price">2,29 лв.
+-54%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/nastolna-lampa-rabalux-berry-6780-led-4-5w-sinya/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/n/a/1ad53d452e9d97821a85704bc38c3dd2/nastolna-lampa-rabalux-berry-6780--45w--sinya-20.jpg" alt="Настолна лампа Rabalux Berry 6780, 4.5W, синя">
+          <div class="badge">-29%</div>
+          <div class="title">Настолна лампа Rabalux Berry 6780, 4.5W, синя</div>
+          <div class="prices">
+            <span class="old-price">50,99 лв.</span> → <span class="new-price">35,99 лв.
+-29%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/tava-tefal-perfect-bake-baking-tray-38x28sm-kafyava/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/t/a/0083d5bdaf0b707d75f59d5153b2cdb5/tava-tefal---perfect-bake-baking-tray--38-x-28-cm--kafyava-20.jpg" alt="Тава Tefal - Perfect bake Baking tray, 38 x 28 cm, кафява">
+          <div class="badge">-28%</div>
+          <div class="title">Тава Tefal - Perfect bake Baking tray, 38 x 28 cm, кафява</div>
+          <div class="prices">
+            <span class="old-price">49,99 лв.</span> → <span class="new-price">35,99 лв.
+-28%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/tava-tefal-perfect-bake-cake-rectangulaire-j5547302-28sm-kafyava/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/t/a/19fcb93b0da0f2dcccc3a6f6ae84273a/tava-tefal---perfect-bake-cake-rectangulaire--28-cm--kafyava-20.jpg" alt="Тава Tefal - Perfect bake Cake rectangulaire, 28 cm, кафява">
+          <div class="badge">-28%</div>
+          <div class="title">Тава Tefal - Perfect bake Cake rectangulaire, 28 cm, кафява</div>
+          <div class="prices">
+            <span class="old-price">39,99 лв.</span> → <span class="new-price">28,99 лв.
+-28%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/tigan-tefal-so-chef-g2670572-26sm-cheren/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/t/i/a25a8cbb6815560b8ff62852dd3c75fd/tigan-tefal---so-chef-g2670572--26-cm--cheren-20.jpg" alt="Тиган Tefal - So Chef G2670572, 26 cm, черен">
+          <div class="badge">-19%</div>
+          <div class="title">Тиган Tefal - So Chef G2670572, 26 cm, черен</div>
+          <div class="prices">
+            <span class="old-price">73,99 лв.</span> → <span class="new-price">59,99 лв.
+-19%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/dekorativna-konzola-palisad-690308-19x45x27-za-visyashti-kashpi-za-stena/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/d/e/414be85b874bf7610b6c0bf32a56574c/dekorativna-konzola-za-visyashti-kashpi-palisad---690308--19-x-45-x-27-cm-20.jpg" alt="Декоративна конзола за висящи кашпи Palisad - 690308, 19 x 45 x 27 cm">
+          <div class="badge">-7%</div>
+          <div class="title">Декоративна конзола за висящи кашпи Palisad - 690308, 19 x 45 x 27 cm</div>
+          <div class="prices">
+            <span class="old-price">6,99 лв.</span> → <span class="new-price">6,49 лв.
+-7%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/pochistvashti-prahcheta-za-varovik-na-domakinski-uredi-heitmann-bio-2-h-25-g/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/o/f16b788123b94f43554e6ed303378fdf/pochistvashti-prahcheta-za-varovik-na-domakinski-uredi-heitmann---bio--2-h-25-g-20.jpg" alt="Почистващи прахчета за варовик на домакински уреди Heitmann - Bio, 2 х 25 g">
+          <div class="badge">-20%</div>
+          <div class="title">Почистващи прахчета за варовик на домакински уреди Heitmann - Bio, 2 х 25 g</div>
+          <div class="prices">
+            <span class="old-price">2,50 лв.</span> → <span class="new-price">1,99 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/vazglavnitsa-dream-on-memory-king-70h41h16-sm/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/v/a/499deda511b747db2ec2e22acc10fffe/vazglavnitsa-dream-on-memory---king--70-h-41-h-16-cm-20.jpg" alt="Възглавница Dream On Memory - King, 70 х 41 х 16 cm">
+          <div class="badge">-19%</div>
+          <div class="title">Възглавница Dream On Memory - King, 70 х 41 х 16 cm</div>
+          <div class="prices">
+            <span class="old-price">92,99 лв.</span> → <span class="new-price">74,99 лв.
+-19%</span>
           </div>
         </div>
       </a>

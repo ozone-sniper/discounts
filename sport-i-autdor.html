@@ -4,10 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Намалени продукти - Спорт и къмпинг</title>
-   <link href="https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
   <style>
     body {
-        font-family: 'Winky Rough', cursive;
+      font-family: "Shantell Sans", cursive;
       background: #f5f5f5;
       padding: 20px;
     }
@@ -26,6 +29,7 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       transition: transform 0.2s;
       position: relative;
+        text-align: center;
     }
     .card:hover {
       transform: scale(1.02);
@@ -61,10 +65,24 @@
       color: green;
       font-weight: bold;
     }
+    .centered {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    /* Responsive Layouts */
+    @media (max-width: 480px) {
+        .grid {
+            grid-template-columns: 1fr 1fr; /* One column for phones */
+        }
+    }
   </style>
 </head>
 <body>
   <h1>📚 Намалени продукти от категория "Спорт и къмпинг"</h1>
+      <div class="centered">
+        <h3>Последно обновяване: 4/14/2025, 12:52:55 PM</h3>
+      </div>
   <div class="grid">
     
       <a href="https://www.ozone.bg/product/svirka-referska-fox-40-s-vrazka-i-silikonov-mundshtuk-sin-20082703/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
@@ -86,6 +104,17 @@
           <div class="prices">
             <span class="old-price">24,99 лв.</span> → <span class="new-price">18,99 лв.
 -24%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/tapi-za-ushi-arena-earplug-pro-sini/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/t/a/08d04f332346ee9915b173e3b7de162a/tapi-za-ushi-arena---earplug-pro--sini-20.jpg" alt="Тапи за уши Arena - Earplug Pro, сини">
+          <div class="badge">-12%</div>
+          <div class="title">Тапи за уши Arena - Earplug Pro, сини</div>
+          <div class="prices">
+            <span class="old-price">24,99 лв.</span> → <span class="new-price">21,99 лв.
+-12%</span>
           </div>
         </div>
       </a>

@@ -4,10 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Намалени продукти - Малки електроуреди</title>
-   <link href="https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
   <style>
     body {
-        font-family: 'Winky Rough', cursive;
+      font-family: "Shantell Sans", cursive;
       background: #f5f5f5;
       padding: 20px;
     }
@@ -26,6 +29,7 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       transition: transform 0.2s;
       position: relative;
+        text-align: center;
     }
     .card:hover {
       transform: scale(1.02);
@@ -61,10 +65,24 @@
       color: green;
       font-weight: bold;
     }
+    .centered {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    /* Responsive Layouts */
+    @media (max-width: 480px) {
+        .grid {
+            grid-template-columns: 1fr 1fr; /* One column for phones */
+        }
+    }
   </style>
 </head>
 <body>
   <h1>📚 Намалени продукти от категория "Малки електроуреди"</h1>
+      <div class="centered">
+        <h3>Последно обновяване: 4/14/2025, 12:48:21 PM</h3>
+      </div>
   <div class="grid">
     
       <a href="https://www.ozone.bg/product/mashina-za-soda-philips-add4901bk-10/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
@@ -188,17 +206,6 @@
           </div>
         </div>
       </a>
-      <a href="https://www.ozone.bg/product/filtrirashta-butilka-aquaphor-city-0-5l-160009/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
-        <div class="card">
-          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/f/i/5aa3e66052e415aa3061a46a1b23e027/filtrirashta-butilka-za-voda-aquaphor---city--05-l--siva-20.jpg" alt="Филтрираща бутилка за вода Aquaphor - City, 0.5 l, сива">
-          <div class="badge">-43%</div>
-          <div class="title">Филтрираща бутилка за вода Aquaphor - City, 0.5 l, сива</div>
-          <div class="prices">
-            <span class="old-price">39,99 лв.</span> → <span class="new-price">22,99 лв.
--43%</span>
-          </div>
-        </div>
-      </a>
       <a href="https://www.ozone.bg/product/komplekt-4-broya-rezervni-glavi-philips-sonicare-w-optimal-white-hx6064-10/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
         <div class="card">
           <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/o/351296ca19c5efdbac5e264f85734617/rezervni-glavi-philips-sonicare---w-optimal-white-hx6064-10--4-broya--beli-20.jpg" alt="Резервни глави Philips Sonicare - W Optimal White HX6064/10, 4 броя, бели">
@@ -207,6 +214,17 @@
           <div class="prices">
             <span class="old-price">59,00 лв.</span> → <span class="new-price">49,99 лв.
 -15%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/filtrirashta-butilka-aquaphor-city-0-5l-160009/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/f/i/5aa3e66052e415aa3061a46a1b23e027/filtrirashta-butilka-za-voda-aquaphor---city--05-l--siva-20.jpg" alt="Филтрираща бутилка за вода Aquaphor - City, 0.5 l, сива">
+          <div class="badge">-43%</div>
+          <div class="title">Филтрираща бутилка за вода Aquaphor - City, 0.5 l, сива</div>
+          <div class="prices">
+            <span class="old-price">39,99 лв.</span> → <span class="new-price">22,99 лв.
+-43%</span>
           </div>
         </div>
       </a>
@@ -276,17 +294,6 @@
           </div>
         </div>
       </a>
-      <a href="https://www.ozone.bg/product/ured-za-zdravoslovno-gotvene-tefal-ey111b15-easy-fry-ultra-4-2l-digital/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
-        <div class="card">
-          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/u/r/e6f80866c9d1994cf75234d327ada65b/ured-za-zdravoslovno-gotvene-tefal---ultra-fry-digital-ey111b15--1400w--siv-20.jpg" alt="Уред за здравословно готвене Tefal - Ultra Fry Digital EY111B15, 1400W, сив">
-          <div class="badge">-8%</div>
-          <div class="title">Уред за здравословно готвене Tefal - Ultra Fry Digital EY111B15, 1400W, сив</div>
-          <div class="prices">
-            <span class="old-price">189,99 лв.</span> → <span class="new-price">174,99 лв.
--8%</span>
-          </div>
-        </div>
-      </a>
       <a href="https://www.ozone.bg/product/elektricheska-kana-aeno-ek2/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
         <div class="card">
           <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/e/l/50569d8bf086291428abb49206f25101/elektricheska-kana-aeno---ek2--2200w--1-l--byala-20.jpg" alt="Електрическа кана AENO - EK2, 2200W, 1 l, бяла">
@@ -295,6 +302,17 @@
           <div class="prices">
             <span class="old-price">49,00 лв.</span> → <span class="new-price">39,99 лв.
 -18%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/ured-za-zdravoslovno-gotvene-tefal-ey111b15-easy-fry-ultra-4-2l-digital/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/u/r/e6f80866c9d1994cf75234d327ada65b/ured-za-zdravoslovno-gotvene-tefal---ultra-fry-digital-ey111b15--1400w--siv-20.jpg" alt="Уред за здравословно готвене Tefal - Ultra Fry Digital EY111B15, 1400W, сив">
+          <div class="badge">-8%</div>
+          <div class="title">Уред за здравословно готвене Tefal - Ultra Fry Digital EY111B15, 1400W, сив</div>
+          <div class="prices">
+            <span class="old-price">189,99 лв.</span> → <span class="new-price">174,99 лв.
+-8%</span>
           </div>
         </div>
       </a>
@@ -419,17 +437,6 @@
           </div>
         </div>
       </a>
-      <a href="https://www.ozone.bg/product/aquaphor-filtrirashta-butilka-city-350-ml-rozova/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
-        <div class="card">
-          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/f/i/015d5214ea971a609b2e7f8f14310728/filtrirashta-butilka-aquaphor---city--160024--350-ml--rozova-20.jpg" alt="Филтрираща бутилка Aquaphor - City, 160024, 350 ml, розова">
-          <div class="badge">-36%</div>
-          <div class="title">Филтрираща бутилка Aquaphor - City, 160024, 350 ml, розова</div>
-          <div class="prices">
-            <span class="old-price">35,99 лв.</span> → <span class="new-price">22,99 лв.
--36%</span>
-          </div>
-        </div>
-      </a>
       <a href="https://www.ozone.bg/product/kana-za-voda-aquaphor-jasper-2-8-l-s-tri-filtara-maxfor-190066/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
         <div class="card">
           <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/a/e016339e209a7d2f8c27f2010366cce9/kana-za-voda-aquaphor---jasper--190066--3-filtara--28-l--sinya-20.jpg" alt="Kaна за вода Aquaphor - Jasper, 190066, 3 филтъра, 2.8 l, синя">
@@ -438,6 +445,17 @@
           <div class="prices">
             <span class="old-price">51,99 лв.</span> → <span class="new-price">29,99 лв.
 -42%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/aquaphor-filtrirashta-butilka-city-350-ml-rozova/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/f/i/015d5214ea971a609b2e7f8f14310728/filtrirashta-butilka-aquaphor---city--160024--350-ml--rozova-20.jpg" alt="Филтрираща бутилка Aquaphor - City, 160024, 350 ml, розова">
+          <div class="badge">-36%</div>
+          <div class="title">Филтрираща бутилка Aquaphor - City, 160024, 350 ml, розова</div>
+          <div class="prices">
+            <span class="old-price">35,99 лв.</span> → <span class="new-price">22,99 лв.
+-36%</span>
           </div>
         </div>
       </a>
@@ -724,6 +742,523 @@
           <div class="prices">
             <span class="old-price">12,59 лв.</span> → <span class="new-price">9,99 лв.
 -21%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/komplekt-trimeri-philips-20-in-1-i-oneblade-mg9553-15/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/o/11e312414d405041feb055d7eec089cc/komplekt-trimeri-philips---20-in-1-i-oneblade-mg9553-15--cheren-20.jpg" alt="Комплект тримери Philips - 20 in 1 и OneBlade MG9553/15, черен">
+          <div class="badge">-13%</div>
+          <div class="title">Комплект тримери Philips - 20 in 1 и OneBlade MG9553/15, черен</div>
+          <div class="prices">
+            <span class="old-price">229,00 лв.</span> → <span class="new-price">199,99 лв.
+-13%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/tefal-ey201815-easy-fry-classic-xl-4-2l-capacity-1-2kg-1500w-30min-timer-auto-ring-adj-temp-8/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/f/r/974f24bbd3642733b5fd0728ddb446c6/frityurnik-s-malko-maznina-tefal--easy-fry-ey201815--cheren-20.jpg" alt="Фритюрник с малко мазнина Tefal -EASY FRY EY201815, черен">
+          <div class="badge">-20%</div>
+          <div class="title">Фритюрник с малко мазнина Tefal -EASY FRY EY201815, черен</div>
+          <div class="prices">
+            <span class="old-price">199,99 лв.</span> → <span class="new-price">159,99 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/elektricheska-skara-tefal-cb6a0830-cherna/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/_/0/1b2bead951cc21983cc5269cd78b91c0/skara-tefal---cb6a0830--2000w--nezalepvashto--ploska-orebrena--cherna-20.jpg" alt="Скара Tefal - CB6A0830, 2000W, незалепващо, плоска/оребрена, черна">
+          <div class="badge">-32%</div>
+          <div class="title">Скара Tefal - CB6A0830, 2000W, незалепващо, плоска/оребрена, черна</div>
+          <div class="prices">
+            <span class="old-price">189,99 лв.</span> → <span class="new-price">129,99 лв.
+-32%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/konsumativi-za-chetki-za-zabi-philips-hx9052-17/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/o/69eae5a2f6ba859eaed96673fa4b6e04/rezervni-glavi-philips-sonicare---g3-premium-gum-care-hx9052-17--2-broya--beli-20.jpg" alt="Резервни глави Philips Sonicare - G3 Premium Gum Care HX9052/17, 2 броя, бели">
+          <div class="badge">-8%</div>
+          <div class="title">Резервни глави Philips Sonicare - G3 Premium Gum Care HX9052/17, 2 броя, бели</div>
+          <div class="prices">
+            <span class="old-price">49,00 лв.</span> → <span class="new-price">44,99 лв.
+-8%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/elektricheska-chetka-za-zabi-philips-sonicare-hx3673-11/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/e/l/324fa2a961a9a20542043438763e8b9d/elektricheska-chetka-za-zabi-philips-sonicare---hx3673-11--1-nakraynik--rozova-20.jpg" alt="Електрическа четка за зъби Philips Sonicare - HX3673/11, 1 накрайник, розова">
+          <div class="badge">-14%</div>
+          <div class="title">Електрическа четка за зъби Philips Sonicare - HX3673/11, 1 накрайник, розова</div>
+          <div class="prices">
+            <span class="old-price">139,99 лв.</span> → <span class="new-price">119,99 лв.
+-14%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/elektricheska-chetka-za-kosa-beurer-hc-45/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/e/l/9a9c6d6139d101551a7d8989e75c1681/elektricheska-chetka-za-kosa-beurer---hc-45--1000w--sinya-20.jpg" alt="Електрическа четка за коса Beurer - HC 45, 1000W, синя">
+          <div class="badge">-34%</div>
+          <div class="title">Електрическа четка за коса Beurer - HC 45, 1000W, синя</div>
+          <div class="prices">
+            <span class="old-price">89,99 лв.</span> → <span class="new-price">58,99 лв.
+-34%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/chetka-za-zabi-philips-hx6352-42/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/e/l/3d4dac6e2492e82c8dff36f385c7923f/elektricheska-chetka-za-zabi-philips-sonicare---for-kids--hx6352-42--2-nakraynitsi--rozova-20.jpg" alt="Електрическа четка за зъби Philips Sonicare - For Kids, HX6352/42, 2 накрайници, розова">
+          <div class="badge">-16%</div>
+          <div class="title">Електрическа четка за зъби Philips Sonicare - For Kids, HX6352/42, 2 накрайници, розова</div>
+          <div class="prices">
+            <span class="old-price">119,00 лв.</span> → <span class="new-price">99,99 лв.
+-16%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/butilka-siti-filtrirashta-cherno-500-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/b/u/65ecab2d2182c375b8da92a8e266d4db/filtrirashta-butilka-za-voda-aquaphor---city--filter--05-l--cherna-20.jpg" alt="Филтрираща бутилка за вода Aquaphor - City, Filter, 0.5 l, черна">
+          <div class="badge">-38%</div>
+          <div class="title">Филтрираща бутилка за вода Aquaphor - City, Filter, 0.5 l, черна</div>
+          <div class="prices">
+            <span class="old-price">39,99 лв.</span> → <span class="new-price">24,99 лв.
+-38%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/masazhor-za-kraka-beurer-fmw-45-15-w-2-stepeni-kafyav/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/m/a/891109bd83ccc63873e9d5d96b0d0824/masazhor-za-kraka-beurer---fwm-45--15-w--2-stepeni--kafyav-20.jpg" alt="Масажор за крака Beurer - FWM 45, 15 W, 2 степени, кафяв">
+          <div class="badge">-23%</div>
+          <div class="title">Масажор за крака Beurer - FWM 45, 15 W, 2 степени, кафяв</div>
+          <div class="prices">
+            <span class="old-price">129,99 лв.</span> → <span class="new-price">99,99 лв.
+-23%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/prechistvatel-za-vazduh-oberon-320-wifi/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/r/7a4d0be1cfa8027ae6a6f8b8ee13df3c/prechistvatel-za-vazduh-oberon---320--hepa--586-db--byal-20.jpg" alt="Пречиствател за въздух Oberon - 320, HEPA, 58.6 dB, бял">
+          <div class="badge">-10%</div>
+          <div class="title">Пречиствател за въздух Oberon - 320, HEPA, 58.6 dB, бял</div>
+          <div class="prices">
+            <span class="old-price">399,00 лв.</span> → <span class="new-price">359,00 лв.
+-10%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/ured-za-litse-beurer-fc-45-facial-brush-1-attachments/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/u/r/a9d9dd0cd63152491d4fa62bf22d46a4/ured-za-pochistvane-na-litse-beurer---fc-45--2-stepeni--byal-20.jpg" alt="Уред за почистване na лице Beurer - FC 45, 2 степени, бял">
+          <div class="badge">-16%</div>
+          <div class="title">Уред за почистване na лице Beurer - FC 45, 2 степени, бял</div>
+          <div class="prices">
+            <span class="old-price">43,99 лв.</span> → <span class="new-price">36,99 лв.
+-16%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/philips-zvukova-elektricheska-chetka-za-zabi-protectiveclean-4300-byala/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/e/l/74bb537e8776ad06a89627129812620a/elektricheska-chetka-za-zabi-philips-sonicare---hx6807-63--1-nakraynik--byala-20.jpg" alt="Електрическа четка за зъби Philips Sonicare - HX6807/63, 1 накрайник, бяла">
+          <div class="badge">-15%</div>
+          <div class="title">Електрическа четка за зъби Philips Sonicare - HX6807/63, 1 накрайник, бяла</div>
+          <div class="prices">
+            <span class="old-price">159,00 лв.</span> → <span class="new-price">134,99 лв.
+-15%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/kafeavtomat-delonghi-magnifica-evo-ecam290-61-b-1450-w-15-bar/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/a/c1c0cd9aec4854a8ec4dcf4e02c03a8d/kafeavtomat-delonghi---magnifica-evo-ecam29061b--15-bar--18-l--cheren-20.jpg" alt="Кафеавтомат DeLonghi - Magnifica Evo ECAM290.61.B, 15 bar, 1.8 l, черен">
+          <div class="badge">-16%</div>
+          <div class="title">Кафеавтомат DeLonghi - Magnifica Evo ECAM290.61.B, 15 bar, 1.8 l, черен</div>
+          <div class="prices">
+            <span class="old-price">999,00 лв.</span> → <span class="new-price">839,99 лв.
+-16%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/smart-kantar-beurer-bf-195-cheren-320138/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/_/0/046682ce2f59dc50e89e5a64a9486000/smart-kantar-beurer---bf-195--cheren-20.jpg" alt="Смарт кантар Beurer - BF 195, черен">
+          <div class="badge">-14%</div>
+          <div class="title">Смарт кантар Beurer - BF 195, черен</div>
+          <div class="prices">
+            <span class="old-price">69,99 лв.</span> → <span class="new-price">59,99 лв.
+-14%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/brita-style-cool-led-filtrirashta-kana-za-voda-sinya/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/a/ee8635cd5ac61ccd622f1d49e994d33b/kana-za-filtrirane-brita---style-cool-led--24-l--sinya-20.jpg" alt="Кана за филтриране BRITA - Style Cool LED, 2.4 l, синя">
+          <div class="badge">-10%</div>
+          <div class="title">Кана за филтриране BRITA - Style Cool LED, 2.4 l, синя</div>
+          <div class="prices">
+            <span class="old-price">61,00 лв.</span> → <span class="new-price">54,99 лв.
+-10%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/filtar-za-voda-aquaphor-a5-mg-210007/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/f/i/8462dae603ab04b4b9bfd8574a0e738a/filtar-za-voda-aquaphor---a5-mg--1-broy-20.jpg" alt="Филтър за вода Aquaphor - А5 Mg, 1 брой">
+          <div class="badge">-41%</div>
+          <div class="title">Филтър за вода Aquaphor - А5 Mg, 1 брой</div>
+          <div class="prices">
+            <span class="old-price">21,99 лв.</span> → <span class="new-price">12,99 лв.
+-41%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/elektricheska-kana-aeno-aek008s/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/e/l/2b2827133cb8209a83246e67e881e6b4/elektricheska-kana-aeno---aek008s--2200w--17-l--byala-20.jpg" alt="Електрическа кана AENO - AEK008S, 2200W, 1.7 l, бяла">
+          <div class="badge">-22%</div>
+          <div class="title">Електрическа кана AENO - AEK008S, 2200W, 1.7 l, бяла</div>
+          <div class="prices">
+            <span class="old-price">129,00 лв.</span> → <span class="new-price">99,99 лв.
+-22%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/ek1s-aeno-smart-chaynik/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/e/l/1c08050427e3fe9c6afc701349de83c7/elektricheska-kana-aeno---ek1s-smart---2200w--17-l--srebrista-20.jpg" alt="Електрическа кана AENO - EK1S Smart , 2200W, 1.7 l, сребриста">
+          <div class="badge">-17%</div>
+          <div class="title">Електрическа кана AENO - EK1S Smart , 2200W, 1.7 l, сребриста</div>
+          <div class="prices">
+            <span class="old-price">109,00 лв.</span> → <span class="new-price">89,99 лв.
+-17%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/prahosmukachka-rowenta-rh9a73wo/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/v/e/e5e35814000979ee6346c7f9640db88d/vertikalna-prahosmukachka-bez-torba-rowenta---rh9a73wo--chervena-20.jpg" alt="Вертикална прахосмукачка без торба Rowenta - RH9A73WO, червена">
+          <div class="badge">-7%</div>
+          <div class="title">Вертикална прахосмукачка без торба Rowenta - RH9A73WO, червена</div>
+          <div class="prices">
+            <span class="old-price">749,99 лв.</span> → <span class="new-price">699,99 лв.
+-7%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/chetka-za-zabi-philips-sonicare-protectiveclean-5100-hx6850-57/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/e/l/8f4df2ea00e0da8df3dd764c686d0fe5/elektricheska-chetka-za-zabi-philips-sonicare---hx6850-57--1-nakraynik--cherna-20.jpg" alt="Електрическа четка за зъби Philips Sonicare - HX6850/57, 1 накрайник, черна">
+          <div class="badge">-14%</div>
+          <div class="title">Електрическа четка за зъби Philips Sonicare - HX6850/57, 1 накрайник, черна</div>
+          <div class="prices">
+            <span class="old-price">279,00 лв.</span> → <span class="new-price">239,99 лв.
+-14%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/elektricheska-chetka-za-zabi-aeno-db1s-byala/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/e/l/c84b1c640467aae84808c7c1dd1f91e8/elektricheska-chetka-za-zabi-aeno---sonic-db1s--3-nakraynika--byala-20.jpg" alt="Електрическа четка за зъби AENO - Sonic DB1S, 3 накрайника, бяла">
+          <div class="badge">-31%</div>
+          <div class="title">Електрическа четка за зъби AENO - Sonic DB1S, 3 накрайника, бяла</div>
+          <div class="prices">
+            <span class="old-price">109,00 лв.</span> → <span class="new-price">74,99 лв.
+-31%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/komplekt-4-broya-rezervni-glavi-philips-sonicare-hx9044-17/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/4/_/dafa3e4379f614288da37c001db0bb2c/rezervni-glavi-philips-sonicare---hx9044-17--4-broya--beli-20.jpg" alt="Резервни глави Philips Sonicare - HX9044/17, 4 броя, бели">
+          <div class="badge">-16%</div>
+          <div class="title">Резервни глави Philips Sonicare - HX9044/17, 4 броя, бели</div>
+          <div class="prices">
+            <span class="old-price">89,00 лв.</span> → <span class="new-price">74,99 лв.
+-16%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/komplekt-za-manikyur-pedikyur-beurer-mp-42-byal/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/2/2/12207380dcbc78c5515d0ae2e6036eba/komplekt-za-manikyur-pedikyur-beurer---mp-42--57400-beu--byal-20.jpg" alt="Комплект за маникюр/педикюр Beurer - MP 42, 57400_BEU, бял">
+          <div class="badge">-22%</div>
+          <div class="title">Комплект за маникюр/педикюр Beurer - MP 42, 57400_BEU, бял</div>
+          <div class="prices">
+            <span class="old-price">102,99 лв.</span> → <span class="new-price">79,99 лв.
+-22%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/trimer-philips-15-in-1-mg7950-15-cheren/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/t/r/8a1f4bfc10dc259a83c401b3f29687aa/trimer-philips---15-in-1-mg7950-15--cheren-20.jpg" alt="Тример Philips - 15 in 1 MG7950/15, черен">
+          <div class="badge">-17%</div>
+          <div class="title">Тример Philips - 15 in 1 MG7950/15, черен</div>
+          <div class="prices">
+            <span class="old-price">169,00 лв.</span> → <span class="new-price">139,99 лв.
+-17%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/smart-kantar-za-lichno-teglo-v-byal-tsvyatabs0001s/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/s/m/0dbc2e53dfcc115d884c9b33239cae36/smart-kantar-aeno---abs0001s--180-kg--byal-20.jpg" alt="Смарт кантар AENO - ABS0001S, 180 kg, бял">
+          <div class="badge">-30%</div>
+          <div class="title">Смарт кантар AENO - ABS0001S, 180 kg, бял</div>
+          <div class="prices">
+            <span class="old-price">69,00 лв.</span> → <span class="new-price">47,99 лв.
+-30%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/rezervni-glavi-philips-sonicare-w2-optimal-white-8-broya-cherni/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/r/e/8e8b4d857335a61aae59d7169fb6bd1d/rezervni-glavi-philips-sonicare---w2-optimal-white-hx6068-13--8-broya--cherni-20.jpg" alt="Резервни глави Philips Sonicare - W2 Optimal White HX6068/13, 8 броя, черни">
+          <div class="badge">-20%</div>
+          <div class="title">Резервни глави Philips Sonicare - W2 Optimal White HX6068/13, 8 броя, черни</div>
+          <div class="prices">
+            <span class="old-price">99,99 лв.</span> → <span class="new-price">79,99 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/ovlazhnitel-na-vazduh-philips-3000-series-hu3916-10/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/o/v/3a926319121616562bc7aa03110dc256/ovlazhnitel-philips---3000-series-hu3916-10--3-l--25w--byal-20.jpg" alt="Овлажнител Philips - 3000 series HU3916/10, 3 l, 25W, бял">
+          <div class="badge">-25%</div>
+          <div class="title">Овлажнител Philips - 3000 series HU3916/10, 3 l, 25W, бял</div>
+          <div class="prices">
+            <span class="old-price">399,99 лв.</span> → <span class="new-price">299,99 лв.
+-25%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/sokoizstiskvachka-muhler-mj-696/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/s/o/5b08e9e84c8437d54288e5803a568b9f/sokoizstiskvachka-muhler---mj-696--600w--srebrista-20.jpg" alt="Сокоизстисквачка Muhler - MJ-696, 600W, сребриста">
+          <div class="badge">-22%</div>
+          <div class="title">Сокоизстисквачка Muhler - MJ-696, 600W, сребриста</div>
+          <div class="prices">
+            <span class="old-price">109,00 лв.</span> → <span class="new-price">84,99 лв.
+-22%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/multikukar-tefal-ey150830-extra-crisp-lid-blk-ee/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/t/e/63c28ba2f13333ffc472eb04a066ef55/kapak-za-multikukar-tefal---ey150830-cook4me-extra-crisp-lid--cheren-20.jpg" alt="Капак за мултикукър Tefal - EY150830 Cook4Me Extra Crisp Lid, черен">
+          <div class="badge">-13%</div>
+          <div class="title">Капак за мултикукър Tefal - EY150830 Cook4Me Extra Crisp Lid, черен</div>
+          <div class="prices">
+            <span class="old-price">159,99 лв.</span> → <span class="new-price">139,99 лв.
+-13%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/panasonic-ew-dm81-g503-tooth-brush/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/e/l/bba925795476abcec49c7c0318660100/elektricheska-chetka-za-zabi-panasonic---ew-dm81-g503--2-nakraynitsi--zelena-20.jpg" alt="Електрическа четка за зъби Panasonic - EW-DM81-G503, 2 накрайници, зелена">
+          <div class="badge">-24%</div>
+          <div class="title">Електрическа четка за зъби Panasonic - EW-DM81-G503, 2 накрайници, зелена</div>
+          <div class="prices">
+            <span class="old-price">105,00 лв.</span> → <span class="new-price">79,99 лв.
+-24%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/multikukar-tefal-cy851130-cook4me-standard-150-bg-recipes-1600w-6l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/m/u/2dc40adc6bbc930b690c20e4bacd83b3/multikukar-tefal---cook4me-cy851130--1600w--6-programi--byal-20.jpg" alt="Мултикукър Tefal - COOK4ME CY851130, 1600W, 6 програми, бял">
+          <div class="badge">-14%</div>
+          <div class="title">Мултикукър Tefal - COOK4ME CY851130, 1600W, 6 програми, бял</div>
+          <div class="prices">
+            <span class="old-price">369,99 лв.</span> → <span class="new-price">319,99 лв.
+-14%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/pasator-muhler-mb-603-600w-600w-byal-siv/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/p/a/b4bb642e2a2093ac9c0b9ddad3c29d97/pasator-muhler---mb-603--600w--600w--byal-siv-20.jpg" alt="Пасатор Muhler - MB-603, 600W, 600W, бял/сив">
+          <div class="badge">-27%</div>
+          <div class="title">Пасатор Muhler - MB-603, 600W, 600W, бял/сив</div>
+          <div class="prices">
+            <span class="old-price">55,00 лв.</span> → <span class="new-price">39,99 лв.
+-27%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/damski-trimer-philips-brl146-00/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/d/a/a4ab352df77d554847a32e195fa94cf7/damski-trimer-philips---brl146-00--byal-rozov-20.jpg" alt="Дамски тример Philips - BRL146/00, бял/розов">
+          <div class="badge">-18%</div>
+          <div class="title">Дамски тример Philips - BRL146/00, бял/розов</div>
+          <div class="prices">
+            <span class="old-price">109,99 лв.</span> → <span class="new-price">89,99 лв.
+-18%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/filtar-za-voda-aquaphor-a5-4-broya-kapatsitet-na-filtrirane-350-l-vseki-210006/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/f/i/a2152cc3f440ee0e99af0ae301554340/filtri-za-voda-aquaphor---a5--4-broya-20.jpg" alt="Филтри за вода Aquaphor - А5, 4 броя">
+          <div class="badge">-47%</div>
+          <div class="title">Филтри за вода Aquaphor - А5, 4 броя</div>
+          <div class="prices">
+            <span class="old-price">75,99 лв.</span> → <span class="new-price">39,99 лв.
+-47%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/kafe-kapsuli-starbucks-blonde-espresso-roast-ot-nescafer-dolce-gusto-svetlo-izpichane-kutiya-12-kapsuli-12-napitki-66g/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/a/0791d7674ca839d8b00c6c0471514e4a/kafe-kapsuli-starbucks---blonde-espresso-roast--12-napitki-20.jpg" alt="Кафе капсули STARBUCKS - Blonde Espresso Roast, 12 напитки">
+          <div class="badge">-21%</div>
+          <div class="title">Кафе капсули STARBUCKS - Blonde Espresso Roast, 12 напитки</div>
+          <div class="prices">
+            <span class="old-price">12,59 лв.</span> → <span class="new-price">9,99 лв.
+-21%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/filtrirashta-butilka-za-voda-aquaphor-city-filter-0-5-l-lavender/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/f/i/9fb9879078e7a7d618f7afab8619ab64/filtrirashta-butilka-za-voda-aquaphor---city--filter--05-l--lavender-20.jpg" alt="Филтрираща бутилка за вода Aquaphor - City, Filter, 0.5 l, Lavender">
+          <div class="badge">-32%</div>
+          <div class="title">Филтрираща бутилка за вода Aquaphor - City, Filter, 0.5 l, Lavender</div>
+          <div class="prices">
+            <span class="old-price">36,99 лв.</span> → <span class="new-price">24,99 лв.
+-32%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/philips-chetka-za-zabi-protectiveclean-senzor-za-natisk-kalaf-za-patuvane-cherna/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/e/l/caa6a8d588337e1b082e5a7f1bab2c70/elektricheska-chetka-za-zabi-philips-sonicare---hx6830-53--1-nakraynik--cherna-20.jpg" alt="Електрическа четка за зъби Philips Sonicare - HX6830/53, 1 накрайник, черна">
+          <div class="badge">-13%</div>
+          <div class="title">Електрическа четка за зъби Philips Sonicare - HX6830/53, 1 накрайник, черна</div>
+          <div class="prices">
+            <span class="old-price">219,00 лв.</span> → <span class="new-price">189,99 лв.
+-13%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/ured-za-litse-beurer-fs-603-in-1/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/u/r/3b717d9c30e0f2a0584b3a49b0c2caf0/ured-za-litse-beurer---fs-60--sauna-efekt--2-stepeni--byal-20.jpg" alt="Уред за лице Beurer - FS 60, сауна ефект, 2 степени, бял">
+          <div class="badge">-16%</div>
+          <div class="title">Уред за лице Beurer - FS 60, сауна ефект, 2 степени, бял</div>
+          <div class="prices">
+            <span class="old-price">94,99 лв.</span> → <span class="new-price">79,99 лв.
+-16%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/aeno-vacuum-sealer-compact-vs1/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/v/a/44e6f4155864a6cd3a99a1f957ed1923/ured-za-vakuumirane-aeno----compact-vs1--byal-siv-20.jpg" alt="Уред за вакуумиране AENO - Compact VS1, бял/сив">
+          <div class="badge">-16%</div>
+          <div class="title">Уред за вакуумиране AENO - Compact VS1, бял/сив</div>
+          <div class="prices">
+            <span class="old-price">89,00 лв.</span> → <span class="new-price">74,99 лв.
+-16%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/trimer-rowenta-tn3800f4/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/t/r/46fdc1863cffee5a9903f2e8a09ff720/trimer-rowenta---tn3800f4--oranzhev-siv-20.jpg" alt="Тример Rowenta - TN3800F4, оранжев/сив">
+          <div class="badge">-29%</div>
+          <div class="title">Тример Rowenta - TN3800F4, оранжев/сив</div>
+          <div class="prices">
+            <span class="old-price">84,99 лв.</span> → <span class="new-price">59,99 лв.
+-29%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/vlagoabsorbator-triton-10-10-l-24-chasa/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/o/b/2dac367136e3d75c0dacb0b49c02088b/obezvlazhnitel-attractive---triton-10--10-l--175w--byal-cheren-20.jpg" alt="Обезвлажнител Attractive - Triton 10, 10 l, 175W, бял/черен">
+          <div class="badge">-23%</div>
+          <div class="title">Обезвлажнител Attractive - Triton 10, 10 l, 175W, бял/черен</div>
+          <div class="prices">
+            <span class="old-price">299,00 лв.</span> → <span class="new-price">229,00 лв.
+-23%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/kana-za-voda-aquaphor-prestige-2-8-l-110010/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/a/b7be228fa8ab6e561e146e93581d7a83/kana-za-voda-aquaphor---prestige--110010--28-l--chervena-20.jpg" alt="Kaна за вода Aquaphor - Prestige, 110010, 2.8 l, червена">
+          <div class="badge">-43%</div>
+          <div class="title">Kaна за вода Aquaphor - Prestige, 110010, 2.8 l, червена</div>
+          <div class="prices">
+            <span class="old-price">43,99 лв.</span> → <span class="new-price">24,99 лв.
+-43%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/filtar-za-prechistvatel-aeno-ap3-h13-s-granuli-ot-aktiven-vaglen-hepa/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/f/i/fa9b5566cf716e81151a61b296daff2b/filtar-aeno---aap0003--hepa-h13--za-prechistvatel--cheren-20.jpg" alt="Филтър AENO - AAP0003, HEPA H13, за пречиствател, черен">
+          <div class="badge">-18%</div>
+          <div class="title">Филтър AENO - AAP0003, HEPA H13, за пречиствател, черен</div>
+          <div class="prices">
+            <span class="old-price">49,00 лв.</span> → <span class="new-price">39,99 лв.
+-18%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/sodapop-joy-eco-s-vklyucheni-1-pet-butilka-sv-sinyo-850ml-i-1-co2-tsilindar/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/m/a/ab43cbe5d66b67b6a8aaa0b4fa9f2a4d/mashina-za-soda-sodapop---joy-eco--1-butilka-850ml--cherna-20.jpg" alt="Машина за сода Sodapop - JOY ECO, 1 бутилка 850ml, черна">
+          <div class="badge">-35%</div>
+          <div class="title">Машина за сода Sodapop - JOY ECO, 1 бутилка 850ml, черна</div>
+          <div class="prices">
+            <span class="old-price">169,99 лв.</span> → <span class="new-price">109,99 лв.
+-35%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/konvektor-aeno-agh0003s-700w-byal/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/o/87989a5f1095f6e063d516d40de294f5/konvektor-aeno---agh0003s--700w--byal-20.jpg" alt="Конвектор AENO - AGH0003S, 700W, бял">
+          <div class="badge">-32%</div>
+          <div class="title">Конвектор AENO - AGH0003S, 700W, бял</div>
+          <div class="prices">
+            <span class="old-price">589,00 лв.</span> → <span class="new-price">399,99 лв.
+-32%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/masazhirashta-vazglavnitsa-za-grab-zenet-zet-728/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/m/a/ef0bc393003b3968b042eece19c1d9fd/masazhirashta-vazglavnitsa-za-grab-zenet---zet-728--1-stepen--kafyava-20.jpg" alt="Масажираща възглавница за гръб Zenet - Zet-728, 1 степен, кафява">
+          <div class="badge">-25%</div>
+          <div class="title">Масажираща възглавница за гръб Zenet - Zet-728, 1 степен, кафява</div>
+          <div class="prices">
+            <span class="old-price">133,00 лв.</span> → <span class="new-price">99,99 лв.
+-25%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/filtar-za-prahosmukachka-aeno-sc3/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/f/i/4090129f1c0ff7a1886cd32c4103575b/filtar-za-prahosmukachka-aeno---ascf3--za-sc3--byal-20.jpg" alt="Филтър за прахосмукачка AENO - ASCF3, за SC3, бял">
+          <div class="badge">-15%</div>
+          <div class="title">Филтър за прахосмукачка AENO - ASCF3, за SC3, бял</div>
+          <div class="prices">
+            <span class="old-price">13,00 лв.</span> → <span class="new-price">10,99 лв.
+-15%</span>
           </div>
         </div>
       </a>

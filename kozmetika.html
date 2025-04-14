@@ -4,10 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Намалени продукти - Козметика и парфюми</title>
-   <link href="https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
   <style>
     body {
-        font-family: 'Winky Rough', cursive;
+      font-family: "Shantell Sans", cursive;
       background: #f5f5f5;
       padding: 20px;
     }
@@ -26,6 +29,7 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       transition: transform 0.2s;
       position: relative;
+        text-align: center;
     }
     .card:hover {
       transform: scale(1.02);
@@ -61,12 +65,37 @@
       color: green;
       font-weight: bold;
     }
+    .centered {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    /* Responsive Layouts */
+    @media (max-width: 480px) {
+        .grid {
+            grid-template-columns: 1fr 1fr; /* One column for phones */
+        }
+    }
   </style>
 </head>
 <body>
   <h1>📚 Намалени продукти от категория "Козметика и парфюми"</h1>
+      <div class="centered">
+        <h3>Последно обновяване: 4/14/2025, 12:59:25 PM</h3>
+      </div>
   <div class="grid">
     
+      <a href="https://www.ozone.bg/product/caudalie-resveratrol-lift-komplekt-momentalno-styagasht-serum-i-palnitel-2-h-30-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/c/a/0434db1eaa5489bdd09b393e27db34c7/caudalie-resveratrol-lift-komplekt---momentalno-styagasht-serum-i-palnitel--2-h-30-ml-20.jpg" alt="Caudalie Resveratrol-lift Комплект - Моментално стягащ серум и Пълнител, 2 х 30 ml">
+          <div class="badge">-15%</div>
+          <div class="title">Caudalie Resveratrol-lift Комплект - Моментално стягащ серум и Пълнител, 2 х 30 ml</div>
+          <div class="prices">
+            <span class="old-price">141,09 лв.</span> → <span class="new-price">119,99 лв.
+-15%</span>
+          </div>
+        </div>
+      </a>
       <a href="https://www.ozone.bg/product/uriage-eau-thermale-komplekt-hialuronov-serum-i-krem-30-15-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
         <div class="card">
           <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/u/r/fda19a07c50cfac0a7b622e22891ea63/uriage-eau-thermale-komplekt---hialuronov-serum-i-krem-%C2%A030--15-ml-20.jpg" alt="Uriage Eau Thermale Комплект - Хиалуронов серум и Крем, 30 + 15 ml">
@@ -276,17 +305,6 @@
           </div>
         </div>
       </a>
-      <a href="https://www.ozone.bg/product/revalid-hranitelna-dobavka-za-kosa-i-nokti-60-kapsuli/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
-        <div class="card">
-          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/h/r/43d9d2608204a7c521495b46d567f581/revalid-hranitelna-dobavka-za-kosa-i-nokti--60-kapsuli-20.jpg" alt="Revalid Хранителна добавка за коса и нокти, 60 капсули">
-          <div class="badge">-25%</div>
-          <div class="title">Revalid Хранителна добавка за коса и нокти, 60 капсули</div>
-          <div class="prices">
-            <span class="old-price">37,09 лв.</span> → <span class="new-price">27,89 лв.
--25%</span>
-          </div>
-        </div>
-      </a>
       <a href="https://www.ozone.bg/product/biotrade-acne-out-hidratirasht-krem-za-litse-hydro-active-60-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
         <div class="card">
           <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/h/i/5b8a782f097dd995cb7ddef88276f12f/biotrade-acne-out-hidratirasht-krem-za-litse-hydro-active--60-ml-20.jpg" alt="Biotrade Acne Out Хидратиращ крем за лице Hydro Active, 60 ml">
@@ -295,6 +313,17 @@
           <div class="prices">
             <span class="old-price">25,59 лв.</span> → <span class="new-price">17,99 лв.
 -30%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/revalid-hranitelna-dobavka-za-kosa-i-nokti-60-kapsuli/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/h/r/43d9d2608204a7c521495b46d567f581/revalid-hranitelna-dobavka-za-kosa-i-nokti--60-kapsuli-20.jpg" alt="Revalid Хранителна добавка за коса и нокти, 60 капсули">
+          <div class="badge">-25%</div>
+          <div class="title">Revalid Хранителна добавка за коса и нокти, 60 капсули</div>
+          <div class="prices">
+            <span class="old-price">37,09 лв.</span> → <span class="new-price">27,89 лв.
+-25%</span>
           </div>
         </div>
       </a>
@@ -485,17 +514,6 @@
           </div>
         </div>
       </a>
-      <a href="https://www.ozone.bg/product/redken-volume-injection-shampoan-za-kosa-300-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
-        <div class="card">
-          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/s/h/dd23fdcb0cc5a5dea60b0a9fe3de8ef7/redken-volume-injection-shampoan-za-kosa--300-ml-20.jpg" alt="Redken Volume Injection Шампоан за коса, 300 ml">
-          <div class="badge">-20%</div>
-          <div class="title">Redken Volume Injection Шампоан за коса, 300 ml</div>
-          <div class="prices">
-            <span class="old-price">49,99 лв.</span> → <span class="new-price">39,89 лв.
--20%</span>
-          </div>
-        </div>
-      </a>
       <a href="https://www.ozone.bg/product/jigott-list-maska-za-litse-black-snail-27-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
         <div class="card">
           <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/j/i/058a1cb8aed21966f02163af915c09ff/jigott-list-maska-za-litse-black-snail--27-ml-20.jpg" alt="Jigott Лист маска за лице Black Snail, 27 ml">
@@ -504,6 +522,17 @@
           <div class="prices">
             <span class="old-price">1,89 лв.</span> → <span class="new-price">1,49 лв.
 -21%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/redken-volume-injection-shampoan-za-kosa-300-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/s/h/dd23fdcb0cc5a5dea60b0a9fe3de8ef7/redken-volume-injection-shampoan-za-kosa--300-ml-20.jpg" alt="Redken Volume Injection Шампоан за коса, 300 ml">
+          <div class="badge">-20%</div>
+          <div class="title">Redken Volume Injection Шампоан за коса, 300 ml</div>
+          <div class="prices">
+            <span class="old-price">49,99 лв.</span> → <span class="new-price">39,89 лв.
+-20%</span>
           </div>
         </div>
       </a>
@@ -518,6 +547,17 @@
           </div>
         </div>
       </a>
+      <a href="https://www.ozone.bg/product/biotrade-melabel-slantsezashtiten-krem-za-litse-spf-50-50-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/s/l/a586fe3b88d0b031783426169f131bae/biotrade-melabel-slantsezashtiten-krem-za-litse--spf50--50-ml-20.jpg" alt="Biotrade Melabel Слънцезащитен крем за лице, SPF50+, 50 ml">
+          <div class="badge">-35%</div>
+          <div class="title">Biotrade Melabel Слънцезащитен крем за лице, SPF50+, 50 ml</div>
+          <div class="prices">
+            <span class="old-price">27,99 лв.</span> → <span class="new-price">18,19 лв.
+-35%</span>
+          </div>
+        </div>
+      </a>
       <a href="https://www.ozone.bg/product/a-derma-protect-krem-ad-spf-50-150-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
         <div class="card">
           <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/a/_/9a4a74b01e1b99fec689adb2051802e1/a-derma-protect-slantsezashtiten-krem-ad--spf50--150-ml-20.jpg" alt="A-Derma Protect Слънцезащитен крем AD, SPF50+, 150 ml">
@@ -529,13 +569,13 @@
           </div>
         </div>
       </a>
-      <a href="https://www.ozone.bg/product/biotrade-melabel-slantsezashtiten-krem-za-litse-spf-50-50-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+      <a href="https://www.ozone.bg/product/biotrade-hidratirasht-serum-hyaluronic-acid-b3-30-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
         <div class="card">
-          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/s/l/a586fe3b88d0b031783426169f131bae/biotrade-melabel-slantsezashtiten-krem-za-litse--spf50--50-ml-20.jpg" alt="Biotrade Melabel Слънцезащитен крем за лице, SPF50+, 50 ml">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/b/i/703ffe3aeea17d1a5e43bbd063beb298/biotrade-hidratirasht-serum-hyaluronic-acid--b3--30-ml-20.jpg" alt="Biotrade Хидратиращ серум Hyaluronic Acid + B3, 30 ml">
           <div class="badge">-35%</div>
-          <div class="title">Biotrade Melabel Слънцезащитен крем за лице, SPF50+, 50 ml</div>
+          <div class="title">Biotrade Хидратиращ серум Hyaluronic Acid + B3, 30 ml</div>
           <div class="prices">
-            <span class="old-price">27,99 лв.</span> → <span class="new-price">18,19 лв.
+            <span class="old-price">29,19 лв.</span> → <span class="new-price">18,99 лв.
 -35%</span>
           </div>
         </div>
@@ -548,17 +588,6 @@
           <div class="prices">
             <span class="old-price">20,99 лв.</span> → <span class="new-price">16,69 лв.
 -20%</span>
-          </div>
-        </div>
-      </a>
-      <a href="https://www.ozone.bg/product/biotrade-hidratirasht-serum-hyaluronic-acid-b3-30-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
-        <div class="card">
-          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/b/i/703ffe3aeea17d1a5e43bbd063beb298/biotrade-hidratirasht-serum-hyaluronic-acid--b3--30-ml-20.jpg" alt="Biotrade Хидратиращ серум Hyaluronic Acid + B3, 30 ml">
-          <div class="badge">-35%</div>
-          <div class="title">Biotrade Хидратиращ серум Hyaluronic Acid + B3, 30 ml</div>
-          <div class="prices">
-            <span class="old-price">29,19 лв.</span> → <span class="new-price">18,99 лв.
--35%</span>
           </div>
         </div>
       </a>
@@ -584,6 +613,17 @@
           </div>
         </div>
       </a>
+      <a href="https://www.ozone.bg/product/medi-peel-peptide-9-pachove-za-ochi-hyaluron-dark-benone-30-x-2-broya/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/m/e/d593d82418605a73bd076fcc27cc60db/medi-peel-peptide-9-pachove-za-ochi-hyaluron-dark-benone--30-x-2-broya-20.jpg" alt="Medi-Peel Peptide 9 Пачове за очи Hyaluron Dark Benone, 30 x 2 броя">
+          <div class="badge">-20%</div>
+          <div class="title">Medi-Peel Peptide 9 Пачове за очи Hyaluron Dark Benone, 30 x 2 броя</div>
+          <div class="prices">
+            <span class="old-price">40,99 лв.</span> → <span class="new-price">32,79 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
       <a href="https://www.ozone.bg/product/chamos-acaci-povdigashti-i-styagashti-hidrogel-pachove-za-byust-20-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
         <div class="card">
           <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/c/h/ab671d403c88a748ceae42ad3bbcfd38/chamos-acaci-povdigashti-i-styagashti-hidrogel-pachove-za-byust--20-ml-20.jpg" alt="Chamos Acaci Повдигащи и стягащи хидрогел пачове за бюст, 20 ml">
@@ -606,14 +646,443 @@
           </div>
         </div>
       </a>
-      <a href="https://www.ozone.bg/product/medi-peel-peptide-9-pachove-za-ochi-hyaluron-dark-benone-30-x-2-broya/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+      <a href="https://www.ozone.bg/product/biotrade-anti-age-serum-protiv-brachki-s-retinol-0-5-30-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
         <div class="card">
-          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/m/e/d593d82418605a73bd076fcc27cc60db/medi-peel-peptide-9-pachove-za-ochi-hyaluron-dark-benone--30-x-2-broya-20.jpg" alt="Medi-Peel Peptide 9 Пачове за очи Hyaluron Dark Benone, 30 x 2 броя">
-          <div class="badge">-20%</div>
-          <div class="title">Medi-Peel Peptide 9 Пачове за очи Hyaluron Dark Benone, 30 x 2 броя</div>
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/b/i/6605ef357231e26eb836e3252bc2bac4/biotrade-anti-age-serum-protiv-brachki-s-retinol-05--30-ml-20.jpg" alt="Biotrade Anti-age Серум против бръчки с ретинол 0.5%, 30 ml">
+          <div class="badge">-35%</div>
+          <div class="title">Biotrade Anti-age Серум против бръчки с ретинол 0.5%, 30 ml</div>
           <div class="prices">
-            <span class="old-price">40,99 лв.</span> → <span class="new-price">32,79 лв.
+            <span class="old-price">37,79 лв.</span> → <span class="new-price">24,59 лв.
+-35%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/bochko-losion-repelent-protiv-uhapvaniya-ot-nasekomi-1-g-40-ml-346/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/l/o/120370560b7cd0b16a9c6120401be599/losion-repelent-protiv-uhapvaniya-ot-nasekomi-bochko--40-ml-20.jpg" alt="Лосион репелент против ухапвания от насекоми Бочко, 40 ml">
+          <div class="badge">-10%</div>
+          <div class="title">Лосион репелент против ухапвания от насекоми Бочко, 40 ml</div>
+          <div class="prices">
+            <span class="old-price">5,90 лв.</span> → <span class="new-price">5,30 лв.
+-10%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/cerave-hidratirasht-krem-za-litse-52-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/c/e/ba47a6421739a641db4f702fda33eb80/cerave-hidratirasht-krem-za-litse--52-ml-20.jpg" alt="CeraVe Хидратиращ крем за лице, 52 ml">
+          <div class="badge">-25%</div>
+          <div class="title">CeraVe Хидратиращ крем за лице, 52 ml</div>
+          <div class="prices">
+            <span class="old-price">30,79 лв.</span> → <span class="new-price">23,09 лв.
+-25%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/biotrade-rol-on-protiv-izpotyavane-odorex-deo-40-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/r/o/bbbcb76f74c530ba8030a282d0715097/biotrade-rol-on-protiv-izpotyavane-odorex-deo-%C2%A040-ml-20.jpg" alt="Biotrade Рол-он против изпотяване Odorex Dео, 40 ml">
+          <div class="badge">-30%</div>
+          <div class="title">Biotrade Рол-он против изпотяване Odorex Dео, 40 ml</div>
+          <div class="prices">
+            <span class="old-price">20,49 лв.</span> → <span class="new-price">14,39 лв.
+-30%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/biotrade-pure-skin-ritual-za-siyayna-kozha-2-chasti/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/b/i/c437838f01fe8e63f41a061496edb446/biotrade-pure-skin-ritual-za-siyayna-kozha--2-chasti-20.jpg" alt="Biotrade Pure Skin Ритуал за сияйна кожа, 2 части">
+          <div class="badge">-21%</div>
+          <div class="title">Biotrade Pure Skin Ритуал за сияйна кожа, 2 части</div>
+          <div class="prices">
+            <span class="old-price">67,39 лв.</span> → <span class="new-price">52,99 лв.
+-21%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/vichy-liftactiv-dneven-krem-collagen-specialist-50-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/v/i/a7e81c349332338fbf1c6327339856d2/vichy-liftactiv-dneven-krem-collagen-specialist--50-ml-20.jpg" alt="Vichy Liftactiv Дневен крем Collagen Specialist, 50 ml">
+          <div class="badge">-30%</div>
+          <div class="title">Vichy Liftactiv Дневен крем Collagen Specialist, 50 ml</div>
+          <div class="prices">
+            <span class="old-price">76,69 лв.</span> → <span class="new-price">53,69 лв.
+-30%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/biotrade-keratolin-body-losion-za-tyalo-12-ureya-400-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/h/i/a0fcf1fe0e37c79e4baffa26887539d9/biotrade%C2%A0keratolin-body-losion-za-tyalo--12-ureya--400-ml-20.jpg" alt="Biotrade Keratolin Body Лосион за тяло, 12% урея, 400 ml">
+          <div class="badge">-25%</div>
+          <div class="title">Biotrade Keratolin Body Лосион за тяло, 12% урея, 400 ml</div>
+          <div class="prices">
+            <span class="old-price">25,39 лв.</span> → <span class="new-price">19,09 лв.
+-25%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/klorane-bebe-calendula-nezhen-izmivasht-gel-za-kosa-i-tyalo-500-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/l/1a0f1eef6b4ebc26b9868457685bad85/klorane-bebe-calendula-nezhen-izmivasht-gel-za-kosa-i-tyalo--500-ml-20.jpg" alt="Klorane Bebe Calendula Нежен измиващ гел за коса и тяло, 500 ml">
+          <div class="badge">-40%</div>
+          <div class="title">Klorane Bebe Calendula Нежен измиващ гел за коса и тяло, 500 ml</div>
+          <div class="prices">
+            <span class="old-price">22,89 лв.</span> → <span class="new-price">13,79 лв.
+-40%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/chamos-acaci-eksfolirashta-maska-za-kraka-2-h-7-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/c/h/96e0031cfa8eac16cf69a9cc0c5875f5/chamos-acaci-eksfolirashta-maska-za-kraka--2-h-7-ml-20.jpg" alt="Chamos Acaci Ексфолираща маска за крака, 2 х 7 ml">
+          <div class="badge">-21%</div>
+          <div class="title">Chamos Acaci Ексфолираща маска за крака, 2 х 7 ml</div>
+          <div class="prices">
+            <span class="old-price">7,49 лв.</span> → <span class="new-price">5,89 лв.
+-21%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/la-roche-posay-anthelios-zashtiten-fluid-za-litse-uvmune-400-oil-control-spf50-50-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/l/a/7b3dd0e102cf27301dd126e80900984b/la-roche-posay-anthelios-zashtiten-fluid-za-litse-uvmune-400-oil-control--spf50--50-ml-20.jpg" alt="La Roche-Posay Anthelios Защитен флуид за лице UVMune 400 Oil Control, SPF50+, 50 ml">
+          <div class="badge">-30%</div>
+          <div class="title">La Roche-Posay Anthelios Защитен флуид за лице UVMune 400 Oil Control, SPF50+, 50 ml</div>
+          <div class="prices">
+            <span class="old-price">43,59 лв.</span> → <span class="new-price">30,59 лв.
+-30%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/la-roche-posay-effaclar-komplekt-pochistvashta-gel-pyana-i-palnitel-2-x-400-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/l/a/368f128e176698b0bb1c3932a9318cca/la-roche-posay-effaclar-komplekt---pochistvashta-gel-pyana-i-palnitel--2-x-400-ml-20.jpg" alt="La Roche-Posay Effaclar Комплект - Почистваща гел-пяна и Пълнител, 2 x 400 ml">
+          <div class="badge">-25%</div>
+          <div class="title">La Roche-Posay Effaclar Комплект - Почистваща гел-пяна и Пълнител, 2 x 400 ml</div>
+          <div class="prices">
+            <span class="old-price">63,59 лв.</span> → <span class="new-price">47,69 лв.
+-25%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/medi-peel-peptide-9-esentsiya-za-litse-volume-all-in-one-essence-100-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/m/e/7847e27fa3dcffda7c8a3e70a666b021/medi-peel-peptide-9-esentsiya-za-litse-volume-all-in-one-essence--100-ml-20.jpg" alt="Medi-Peel Peptide 9 Есенция за лице Volume All-in-one Essence, 100 ml">
+          <div class="badge">-20%</div>
+          <div class="title">Medi-Peel Peptide 9 Есенция за лице Volume All-in-one Essence, 100 ml</div>
+          <div class="prices">
+            <span class="old-price">71,99 лв.</span> → <span class="new-price">57,59 лв.
 -20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/dr-tisha-ac7-anti-akne-serum-s-mikroigli-3-x-1-g/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/d/r/0ed277c80589c8de82ad9ad1582d9503/dr-tisha-ac7-anti-akne-serum-s-mikroigli--3-x-1-g-20.jpg" alt="Dr. Tisha AC7 Анти-акне серум с микроигли, 3 x 1 g">
+          <div class="badge">-21%</div>
+          <div class="title">Dr. Tisha AC7 Анти-акне серум с микроигли, 3 x 1 g</div>
+          <div class="prices">
+            <span class="old-price">6,99 лв.</span> → <span class="new-price">5,49 лв.
+-21%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/biotrade-melabel-izsvetlyavasht-noshten-krem-za-litse-50-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/b/i/aa9f15507b8b84e5dd77225a83f41994/biotrade-melabel-izsvetlyavasht-noshten-krem-za-litse--50-ml-20.jpg" alt="Biotrade Melabel Изсветляващ нощен крем за лице, 50 ml">
+          <div class="badge">-35%</div>
+          <div class="title">Biotrade Melabel Изсветляващ нощен крем за лице, 50 ml</div>
+          <div class="prices">
+            <span class="old-price">33,09 лв.</span> → <span class="new-price">21,59 лв.
+-35%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/chamos-acaci-pochistvashta-lepenka-za-cherni-tochki-na-nosa-3-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/c/h/f4dbfffdae72043fb7b56d0b8011137e/chamos-acaci-pochistvashta-lepenka-za-cherni-tochki-na-nosa--3-ml-20.jpg" alt="Chamos Acaci Почистваща лепенка за черни точки на носа, 3 ml">
+          <div class="badge">-19%</div>
+          <div class="title">Chamos Acaci Почистваща лепенка за черни точки на носа, 3 ml</div>
+          <div class="prices">
+            <span class="old-price">2,69 лв.</span> → <span class="new-price">2,19 лв.
+-19%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/cerave-hidratirasht-krem-za-litse-spf-30-52-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/c/e/2703468487517325e69d37498d108e87/cerave-hidratirasht-krem-za-litse--spf30--52-ml-20.jpg" alt="CeraVe Хидратиращ крем за лице, SPF30, 52 ml">
+          <div class="badge">-30%</div>
+          <div class="title">CeraVe Хидратиращ крем за лице, SPF30, 52 ml</div>
+          <div class="prices">
+            <span class="old-price">30,79 лв.</span> → <span class="new-price">21,59 лв.
+-30%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/svr-topialyse-mitselarno-pochistvashto-dush-olio-1-l/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/s/v/a8888423ce811b9e94cb0a4adc8bf1c2/svr-topialyse-mitselarno-pochistvashto-dush-olio--1-l-20.jpg" alt="SVR Topialyse Мицеларно почистващо душ олио, 1 l">
+          <div class="badge">-20%</div>
+          <div class="title">SVR Topialyse Мицеларно почистващо душ олио, 1 l</div>
+          <div class="prices">
+            <span class="old-price">47,59 лв.</span> → <span class="new-price">38,09 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/isdin-fotoprotector-slantsezashtiten-fluid-za-litse-fusion-water-magic-spf50-50-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/i/s/08fc328bbef69d873b912b6d5bf30c68/isdin-fotoprotector-slantsezashtiten-fluid-za-litse-fusion-water-magic--spf50--50-ml-20.jpg" alt="Isdin Fotoprotector Слънцезащитен флуид за лице Fusion Water Magic, SPF50, 50 ml">
+          <div class="badge">-20%</div>
+          <div class="title">Isdin Fotoprotector Слънцезащитен флуид за лице Fusion Water Magic, SPF50, 50 ml</div>
+          <div class="prices">
+            <span class="old-price">35,39 лв.</span> → <span class="new-price">28,39 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/dr-tisha-ac7-anti-akne-serum-s-mikroigli-15-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/d/r/4f75474ccc9f9c95a9d342c8f7e32df7/dr-tisha-ac7-anti-akne-serum-s-mikroigli--15-ml-20.jpg" alt="Dr. Tisha AC7 Анти-акне серум с микроигли, 15 ml">
+          <div class="badge">-20%</div>
+          <div class="title">Dr. Tisha AC7 Анти-акне серум с микроигли, 15 ml</div>
+          <div class="prices">
+            <span class="old-price">39,99 лв.</span> → <span class="new-price">31,89 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/l-oreal-elseve-termozashtiten-sprey-dream-long-150-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/t/e/8dfa374d9916bc6cac9ac393d79b2775/l-oreal-elseve-termozashtiten-sprey-dream-long--150-ml-20.jpg" alt="L'Oréal Elseve Термозащитен спрей Dream Long, 150 ml">
+          <div class="badge">-24%</div>
+          <div class="title">L'Oréal Elseve Термозащитен спрей Dream Long, 150 ml</div>
+          <div class="prices">
+            <span class="old-price">10,29 лв.</span> → <span class="new-price">7,79 лв.
+-24%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/opi-nail-lacquer-top-lak-za-nokti-15-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/t/o/e93c6797b6f114908cbf0c6a28317435/opi-nail-lacquer-top-lak-za-nokti--15-ml-20.jpg" alt="OPI Nail Lacquer Топ лак за нокти, 15 ml">
+          <div class="badge">-20%</div>
+          <div class="title">OPI Nail Lacquer Топ лак за нокти, 15 ml</div>
+          <div class="prices">
+            <span class="old-price">20,99 лв.</span> → <span class="new-price">16,69 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/la-roche-posay-effaclar-korigirasht-krem-duo-spf-30-40-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/l/a/2561329b6883cf4507f621e96f64490d/la-roche-posay-effaclar-korigirasht-krem-duo--spf30--40-ml-20.jpg" alt="La Roche-Posay Effaclar Коригиращ крем Duo, SPF30, 40 ml">
+          <div class="badge">-20%</div>
+          <div class="title">La Roche-Posay Effaclar Коригиращ крем Duo, SPF30, 40 ml</div>
+          <div class="prices">
+            <span class="old-price">39,49 лв.</span> → <span class="new-price">31,59 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/la-roche-posay-anthelios-komplekt-sprey-za-detsa-uvmune-400-i-slantsezashtiten-sprey-spf50-2-h-200-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/l/a/d022f39db0ff2d5133af1c4549904777/la-roche-posay-anthelios-komplekt---sprey-za-detsa-uvmune-400-i-slantsezashtiten-sprey--spf50--2-h-200-ml-20.jpg" alt="La Roche-Posay Anthelios Комплект - Спрей за деца UVMune 400 и Слънцезащитен спрей, SPF50, 2 х 200 ml">
+          <div class="badge">-30%</div>
+          <div class="title">La Roche-Posay Anthelios Комплект - Спрей за деца UVMune 400 и Слънцезащитен спрей, SPF50, 2 х 200 ml</div>
+          <div class="prices">
+            <span class="old-price">95,39 лв.</span> → <span class="new-price">66,79 лв.
+-30%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/cocosolis-naturalno-maslo-maska-za-kosa-3-v-1-110-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/c/o/0b15088dab7eddcfbb98e3d29b3ee6e1/cocosolis-naturalno-maslo-maska-za-kosa-3-v-1--110-ml-20.jpg" alt="Cocosolis Натурално масло маска за коса 3 в 1, 110 ml">
+          <div class="badge">-20%</div>
+          <div class="title">Cocosolis Натурално масло маска за коса 3 в 1, 110 ml</div>
+          <div class="prices">
+            <span class="old-price">45,09 лв.</span> → <span class="new-price">36,09 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/la-roche-posay-effaclar-pochistvasht-mikropiling-gel-400-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/l/a/23deae0bc29a82036f0d6616058520dd/la-roche-posay-effaclar-pochistvasht-mikropiling-gel--400-ml-20.jpg" alt="La Roche-Posay Effaclar Почистващ микропилинг гел, 400 ml">
+          <div class="badge">-20%</div>
+          <div class="title">La Roche-Posay Effaclar Почистващ микропилинг гел, 400 ml</div>
+          <div class="prices">
+            <span class="old-price">38,19 лв.</span> → <span class="new-price">30,59 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/biotrade-keratolin-hands-krem-za-ratse-5-ureya-50-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/k/r/4b2acb5713086d690d2a9db40c8ca853/biotrade%C2%A0keratolin-hands-krem-za-ratse--5-ureya--50-ml-20.jpg" alt="Biotrade Keratolin Hands Крем за ръце, 5% урея, 50 ml">
+          <div class="badge">-24%</div>
+          <div class="title">Biotrade Keratolin Hands Крем за ръце, 5% урея, 50 ml</div>
+          <div class="prices">
+            <span class="old-price">9,39 лв.</span> → <span class="new-price">7,09 лв.
+-24%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/medi-peel-peptide-9-okoloochen-krem-balance-40-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/m/e/f74036c083454b9e54205269ddd9d65b/medi-peel-peptide-9-okoloochen-krem-balance--40-ml-20.jpg" alt="Medi-Peel Peptide 9 Околоочен крем Balance, 40 ml">
+          <div class="badge">-20%</div>
+          <div class="title">Medi-Peel Peptide 9 Околоочен крем Balance, 40 ml</div>
+          <div class="prices">
+            <span class="old-price">45,99 лв.</span> → <span class="new-price">36,79 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/cerave-komplekt-serum-s-retinol-i-hidratirasht-krem-spf30-30-52-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/c/e/792a6b1372bb64cf3539b92aaa413828/cerave-komplekt---serum-s-retinol-i-hidratirasht-krem--spf30--30--52-ml-20.jpg" alt="CeraVe Комплект - Серум с ретинол и Хидратиращ крем, SPF30, 30 + 52 ml">
+          <div class="badge">-10%</div>
+          <div class="title">CeraVe Комплект - Серум с ретинол и Хидратиращ крем, SPF30, 30 + 52 ml</div>
+          <div class="prices">
+            <span class="old-price">64,59 лв.</span> → <span class="new-price">58,19 лв.
+-10%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/la-roche-posy-retinol-and-anthelios-komplekt-serum-protiv-brachki-i-protivostareesht-krem-spf50-30-50-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/l/a/e64a91521927c206e0b7dab74e50b87e/la-roche-posy-retinol-and-anthelios-komplekt---serum-protiv-brachki-i-protivostareesht-krem--spf50--30--50-ml-20.jpg" alt="La Roche-Posy Retinol & Anthelios Комплект - Серум против бръчки и Противостареещ крем, SPF50, 30 + 50 ml">
+          <div class="badge">-30%</div>
+          <div class="title">La Roche-Posy Retinol & Anthelios Комплект - Серум против бръчки и Противостареещ крем, SPF50, 30 + 50 ml</div>
+          <div class="prices">
+            <span class="old-price">130,89 лв.</span> → <span class="new-price">91,69 лв.
+-30%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/la-roche-posay-hyalu-b5-and-anthelios-komplekt-hidratirasht-serum-i-fluid-spf50-30-50-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/l/a/3e837c7841e2509782de237833616bf7/la-roche-posay-hyalu-b5-and-anthelios-komplekt---hidratirasht-serum-i-fluid--spf50--30--50-ml-20.jpg" alt="La Roche-Posay Hyalu B5 & Anthelios Комплект - Хидратиращ серум и Флуид, SPF50+, 30 + 50 ml">
+          <div class="badge">-30%</div>
+          <div class="title">La Roche-Posay Hyalu B5 & Anthelios Комплект - Хидратиращ серум и Флуид, SPF50+, 30 + 50 ml</div>
+          <div class="prices">
+            <span class="old-price">121,89 лв.</span> → <span class="new-price">85,39 лв.
+-30%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/chamos-acaci-cherna-maska-sreshtu-tamni-kragove-i-brachki-3-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/c/h/5414aa0986591ddb0567954c49694e12/chamos-acaci-cherna-maska-sreshtu-tamni-kragove-i-brachki--3-ml-20.jpg" alt="Chamos Acaci Черна маска срещу тъмни кръгове и бръчки, 3 ml">
+          <div class="badge">-22%</div>
+          <div class="title">Chamos Acaci Черна маска срещу тъмни кръгове и бръчки, 3 ml</div>
+          <div class="prices">
+            <span class="old-price">3,69 лв.</span> → <span class="new-price">2,89 лв.
+-22%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/vivienne-sabo-hialuronovi-hidrogel-pachove-express-lifting-30-x-2-broya/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/v/i/e4fa70d4496588965bbe6e72c4025a6e/vivienne-sabo-hialuronovi-hidrogel-pachove-express-lifting--30-x-2-broya-20.jpg" alt="Vivienne Sabó Хиалуронови хидрогел пачове Express Lifting, 30 x 2 броя">
+          <div class="badge">-20%</div>
+          <div class="title">Vivienne Sabó Хиалуронови хидрогел пачове Express Lifting, 30 x 2 броя</div>
+          <div class="prices">
+            <span class="old-price">29,99 лв.</span> → <span class="new-price">23,89 лв.
+-20%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/biotrade-acne-out-matirasht-tonik-za-litse-60-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/m/a/603c404dea4e2c80a9ec0b4bad1d265a/biotrade-acne-out-matirasht-tonik-za-litse--60-ml-20.jpg" alt="Biotrade Acne Out Матиращ тоник за лице, 60 ml">
+          <div class="badge">-30%</div>
+          <div class="title">Biotrade Acne Out Матиращ тоник за лице, 60 ml</div>
+          <div class="prices">
+            <span class="old-price">26,89 лв.</span> → <span class="new-price">18,89 лв.
+-30%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/biotrade-sprey-za-kraka-odorex-foot-protiv-izpotyavane-40-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/s/p/a48615186a296c18ebb827545e27c7c7/biotrade-sprey-za-kraka-odorex-foot--protiv-izpotyavane--40-ml-20.jpg" alt="Biotrade Спрей за крака Odorex Foot, против изпотяване, 40 ml">
+          <div class="badge">-30%</div>
+          <div class="title">Biotrade Спрей за крака Odorex Foot, против изпотяване, 40 ml</div>
+          <div class="prices">
+            <span class="old-price">20,49 лв.</span> → <span class="new-price">14,39 лв.
+-30%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/biotrade-repelex-sprey-protiv-nasekomi-50-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/s/p/78176eaabf915e1852c30b2064d66a96/biotrade-repelex-sprey-protiv-nasekomi--50-ml-20.jpg" alt="Biotrade Repelex Спрей против насекоми, 50 ml">
+          <div class="badge">-25%</div>
+          <div class="title">Biotrade Repelex Спрей против насекоми, 50 ml</div>
+          <div class="prices">
+            <span class="old-price">9,99 лв.</span> → <span class="new-price">7,49 лв.
+-25%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/chamos-acaci-balbukashta-detoksikirashta-list-maska-25-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/c/h/9a95d57832d2348d0c5b5aefb64d66ad/chamos-acaci-balbukashta-detoksikirashta-list-maska--25-ml-20.jpg" alt="Chamos Acaci Бълбукаща детоксикираща лист маска, 25 ml">
+          <div class="badge">-13%</div>
+          <div class="title">Chamos Acaci Бълбукаща детоксикираща лист маска, 25 ml</div>
+          <div class="prices">
+            <span class="old-price">3,99 лв.</span> → <span class="new-price">3,49 лв.
+-13%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/la-roche-posay-effaclar-komplekt-izmivasht-gel-i-ultrakontsentriran-serum-400-30-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/l/a/b7c8e3e031fe90130995cb7f3580fcbd/la-roche-posay-effaclar-komplekt---izmivasht-gel-i-ultrakontsentriran-serum--400--30-ml-20.jpg" alt="La Roche-Posay Effaclar Комплект - Измиващ гел и Ултраконцентриран серум, 400 + 30 ml">
+          <div class="badge">-10%</div>
+          <div class="title">La Roche-Posay Effaclar Комплект - Измиващ гел и Ултраконцентриран серум, 400 + 30 ml</div>
+          <div class="prices">
+            <span class="old-price">94,89 лв.</span> → <span class="new-price">85,39 лв.
+-10%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/avene-sun-komplekt-sprey-za-vazrastni-spf30-i-cprey-za-detsa-spf50-2-h-200-ml-limitirano/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/a/v/227a724e05b8cb271a8f3bed86e084e5/avene-sun-komplekt---sprey-za-vazrastni-spf30-i-cprey-za-detsa-spf50--2-h-200-ml-limitirano-20.jpg" alt="Avène Sun Комплект - Спрей за възрастни SPF30 и Cпрей за деца SPF50+, 2 х 200 ml (Лимитирано)">
+          <div class="badge">-15%</div>
+          <div class="title">Avène Sun Комплект - Спрей за възрастни SPF30 и Cпрей за деца SPF50+, 2 х 200 ml (Лимитирано)</div>
+          <div class="prices">
+            <span class="old-price">63,99 лв.</span> → <span class="new-price">54,39 лв.
+-15%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/isdin-fotoprotector-prozrachen-i-osvezhavasht-slantsezashtiten-sprey-spf-50-250-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/i/s/cf487c0e6e38afdad0fad0fe6d03ab5d/isdin-fotoprotector-prozrachen-i-osvezhavasht-slantsezashtiten-sprey--spf50--250-ml-20.jpg" alt="Isdin Fotoprotector Прозрачен и освежаващ слънцезащитен спрей, SPF50, 250 ml">
+          <div class="badge">-15%</div>
+          <div class="title">Isdin Fotoprotector Прозрачен и освежаващ слънцезащитен спрей, SPF50, 250 ml</div>
+          <div class="prices">
+            <span class="old-price">44,09 лв.</span> → <span class="new-price">37,49 лв.
+-15%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/garnier-skin-naturals-okoloochen-krem-vitamin-c-15-ml/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/g/a/008532819a3b11808a63ce03e578c725/garnier-skin-naturals-okoloochen-krem-vitamin-c--15-ml-20.jpg" alt="Garnier Skin Naturals Околоочен крем Vitamin C, 15 ml">
+          <div class="badge">-19%</div>
+          <div class="title">Garnier Skin Naturals Околоочен крем Vitamin C, 15 ml</div>
+          <div class="prices">
+            <span class="old-price">14,39 лв.</span> → <span class="new-price">11,59 лв.
+-19%</span>
           </div>
         </div>
       </a>

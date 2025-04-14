@@ -4,10 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Намалени продукти - Лайфстайл и фитнес</title>
-   <link href="https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
   <style>
     body {
-        font-family: 'Winky Rough', cursive;
+      font-family: "Shantell Sans", cursive;
       background: #f5f5f5;
       padding: 20px;
     }
@@ -26,6 +29,7 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       transition: transform 0.2s;
       position: relative;
+        text-align: center;
     }
     .card:hover {
       transform: scale(1.02);
@@ -61,10 +65,24 @@
       color: green;
       font-weight: bold;
     }
+    .centered {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    /* Responsive Layouts */
+    @media (max-width: 480px) {
+        .grid {
+            grid-template-columns: 1fr 1fr; /* One column for phones */
+        }
+    }
   </style>
 </head>
 <body>
   <h1>📚 Намалени продукти от категория "Лайфстайл и фитнес"</h1>
+      <div class="centered">
+        <h3>Последно обновяване: 4/14/2025, 12:51:55 PM</h3>
+      </div>
   <div class="grid">
     
       <a href="https://www.ozone.bg/product/mazhki-chorapi-crazy-sox-zelena-polyana-razmer-40-45/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
@@ -75,6 +93,17 @@
           <div class="prices">
             <span class="old-price">5,49 лв.</span> → <span class="new-price">3,69 лв.
 -33%</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://www.ozone.bg/product/damski-bikini-fila-fu6043-urban-brief-regular-cherni/?affid=smisulda&source=affiliate&medium=smisulda" target="_blank">
+        <div class="card">
+          <img src="https://cdn.ozone.bg/media/catalog/product/cache/1/small_image/178x222/9df78eab33525d08d6e5fb8d27136e95/d/a/6e793cdb5d46bb66eb8c3ec29edede34/damski-bikini-fila---fu6043-urban-brief-regular--cherni-20.jpg" alt="Дамски бикини Fila - FU6043 Urban Brief Regular, черни">
+          <div class="badge">-49%</div>
+          <div class="title">Дамски бикини Fila - FU6043 Urban Brief Regular, черни</div>
+          <div class="prices">
+            <span class="old-price">19,99 лв.</span> → <span class="new-price">10,19 лв.
+-49%</span>
           </div>
         </div>
       </a>

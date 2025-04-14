@@ -68,12 +68,25 @@
       text-align: center;
       margin: 10px 0;
     }
+
+    /* Responsive Layouts */
+    @media (max-width: 768px) {
+    .products-grid {
+        grid-template-columns: 1fr; /* One column for phones */
+    }
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for tablets */
+    }
+    }
   </style>
 </head>
 <body>
   <h1>📚 Намалени продукти от категория "Лаптопи, РС и монитори"</h1>
       <div class="centered">
-        <h3>Последно обновяване: 4/14/2025, 9:27:40 AM</h3>
+        <h3>Последно обновяване: 4/14/2025, 9:33:30 AM</h3>
       </div>
   <div class="grid">
     

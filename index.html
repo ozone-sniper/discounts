@@ -1,10 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="bg">
+
 <head>
   <meta charset="UTF-8">
   <title>Намалени продукти</title>
-  <link href="https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
   <style>
     :root {
       --bg-color: #f5f5f5;
@@ -23,7 +26,9 @@
     body {
       margin: 0;
       display: flex;
-      font-family: 'Winky Rough', cursive;
+      font-family: "Winky Rough", sans-serif;
+      font-style: normal;
+      font-optical-sizing: auto;
       background-color: var(--bg-color);
       color: var(--text-color);
     }
@@ -106,6 +111,7 @@
     }
   </style>
 </head>
+
 <body>
   <div id="sidebar">
     <div class="logo">
@@ -114,7 +120,9 @@
     </div>
     <h2>Категории</h2>
     <ul>
-      <li><a href="#" data-src="knijarnica.html">Книги и учебници</a></li><li><a href="#" data-src="posobiya-i-podaratsi.html">Пособия и подаръци</a></li><li><a href="#" data-src="laptopi-monitori-i-kompyutri.html">Лаптопи, РС и монитори</a></li>
+      <li><a href="#" data-src="knijarnica.html">Книги и учебници</a></li>
+      <li><a href="#" data-src="posobiya-i-podaratsi.html">Пособия и подаръци</a></li>
+      <li><a href="#" data-src="laptopi-monitori-i-kompyutri.html">Лаптопи, РС и монитори</a></li>
     </ul>
   </div>
 
@@ -137,4 +145,5 @@
     });
   </script>
 </body>
+
 </html>

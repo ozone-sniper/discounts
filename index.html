@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="bg">
+
 <head>
   <meta charset="UTF-8">
   <title>Намалени продукти</title>
@@ -109,41 +109,44 @@
     }
 
     .product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-    padding: 20px;
-  }
-
-  .product-card {
-    background: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    font-size: 16px;
-    text-align: center;
-  }
-
-  @media (max-width: 768px) {
-    .product-grid {
-      grid-template-columns: 1fr; /* One item per row */
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
     }
 
     .product-card {
-      font-size: 18px; /* Make text a bit larger on mobile */
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+      text-align: center;
     }
-  }
+
+    @media (max-width: 768px) {
+      .product-grid {
+        grid-template-columns: 1fr;
+        /* One item per row */
+      }
+
+      .product-card {
+        font-size: 18px;
+        /* Make text a bit larger on mobile */
+      }
+    }
+  </style>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JBF33ZKMZ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-1JBF33ZKMZ');
   </script>
-  </style>
 </head>
+
 <body>
   <div id="sidebar">
     <div class="logo">
@@ -152,7 +155,21 @@
     </div>
     <h2>Категории</h2>
     <ul>
-      <li><a href="#" data-src="knijarnica.html">Книги и учебници</a></li><li><a href="#" data-src="pazeli-2d-3d.html">Настолни игри и пъзели</a></li><li><a href="#" data-src="posobiya-i-podaratsi.html">Пособия и подаръци</a></li><li><a href="#" data-src="laptopi-monitori-i-kompyutri.html">Лаптопи, РС и монитори</a></li><li><a href="#" data-src="mobilni-ustroistva.html">Смартфони и смарт устройства</a></li><li><a href="#" data-src="malki-elektrouredi.html">Малки електроуреди</a></li><li><a href="#" data-src="tv-foto-i-video.html">ТВ, Фото и видео</a></li><li><a href="#" data-src="mama-i-bebe.html">Майка и бебе</a></li><li><a href="#" data-src="layfstayl.html">Лайфстайл и фитнес</a></li><li><a href="#" data-src="sport-i-autdor.html">Спорт и къмпинг</a></li><li><a href="#" data-src="gaming.html">Гейминг</a></li><li><a href="#" data-src="dom-i-gradina.html">За дома и офиса</a></li><li><a href="#" data-src="apteka-i-hranitelni-dobavki.html">Аптека и хранителни добавки</a></li><li><a href="#" data-src="igrachki-i-pazeli.html">Играчки</a></li><li><a href="#" data-src="kozmetika.html">Козметика и парфюми</a></li>
+      <li><a href="#" data-src="knijarnica.html">Книги и учебници</a></li>
+      <li><a href="#" data-src="pazeli-2d-3d.html">Настолни игри и пъзели</a></li>
+      <li><a href="#" data-src="posobiya-i-podaratsi.html">Пособия и подаръци</a></li>
+      <li><a href="#" data-src="laptopi-monitori-i-kompyutri.html">Лаптопи, РС и монитори</a></li>
+      <li><a href="#" data-src="mobilni-ustroistva.html">Смартфони и смарт устройства</a></li>
+      <li><a href="#" data-src="malki-elektrouredi.html">Малки електроуреди</a></li>
+      <li><a href="#" data-src="tv-foto-i-video.html">ТВ, Фото и видео</a></li>
+      <li><a href="#" data-src="mama-i-bebe.html">Майка и бебе</a></li>
+      <li><a href="#" data-src="layfstayl.html">Лайфстайл и фитнес</a></li>
+      <li><a href="#" data-src="sport-i-autdor.html">Спорт и къмпинг</a></li>
+      <li><a href="#" data-src="gaming.html">Гейминг</a></li>
+      <li><a href="#" data-src="dom-i-gradina.html">За дома и офиса</a></li>
+      <li><a href="#" data-src="apteka-i-hranitelni-dobavki.html">Аптека и хранителни добавки</a></li>
+      <li><a href="#" data-src="igrachki-i-pazeli.html">Играчки</a></li>
+      <li><a href="#" data-src="kozmetika.html">Козметика и парфюми</a></li>
     </ul>
   </div>
 
@@ -175,4 +192,5 @@
     });
   </script>
 </body>
+
 </html>
